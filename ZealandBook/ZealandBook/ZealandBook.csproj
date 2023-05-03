@@ -7,9 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Services\ADONETServices\**" />
+    <Compile Remove="Services\Interfaces\**" />
+    <Content Remove="Services\ADONETServices\**" />
+    <Content Remove="Services\Interfaces\**" />
+    <EmbeddedResource Remove="Services\ADONETServices\**" />
+    <EmbeddedResource Remove="Services\Interfaces\**" />
+    <None Remove="Services\ADONETServices\**" />
+    <None Remove="Services\Interfaces\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="MockData\" />
-    <Folder Include="Services\ADONETServices\" />
-    <Folder Include="Services\Interfaces\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +29,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
 </Project>

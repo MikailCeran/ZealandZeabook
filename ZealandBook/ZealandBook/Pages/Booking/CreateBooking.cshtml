@@ -1,0 +1,54 @@
+﻿@page
+@model ZealandBook.CreateBookingModel
+@{
+    ViewData["Title"] = "Create";
+}
+<head>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="  ModelOnly  " class="text-danger">
+            </div>
+
+
+
+
+            <div class="form-group">
+                <label asp-for="@Model.booking.BookingID" class="control-label"></label>
+                <input asp-for="@Model.booking.BookingID" class="form-control" />
+                <span asp-validation-for="@Model.booking.BookingID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.booking.DateFrom" class="control-label"></label>
+                <input asp-for="@Model.booking.DateFrom" class="form-control"  />
+                <span asp-validation-for="@Model.booking.DateFrom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.booking.DateTo" class="control-label"></label>
+                <input asp-for="@Model.booking.DateTo" class="form-control"  />
+                <span asp-validation-for="@Model.booking.DateTo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.booking.Student_Id" class="control-label"></label>
+                <input asp-for="@Model.booking.Student_Id" class="form-control" />
+                <span asp-validation-for="@Model.booking.Student_Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.booking.Teacher_Id" class="control-label"></label>
+                <input asp-for="@Model.booking.Teacher_Id" class="form-control" />
+                <span asp-validation-for="@Model.booking.Teacher_Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.booking.Room_Id" class="control-label"></label>
+                <input asp-for="@Model.booking.Room_Id" class="form-control" />
+                <span asp-validation-for="@Model.booking.Room_Id" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

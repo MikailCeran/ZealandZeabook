@@ -9,37 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ZealandBook
 build_property.RootNamespace = ZealandBook
-build_property.ProjectDir = D:\GitHub\ZealandZeabook\ZealandBook\ZealandBook\
+build_property.ProjectDir = C:\Users\mikai\source\repos\Zealand Booking\ZealandZeabook\ZealandBook\ZealandBook\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\GitHub\ZealandZeabook\ZealandBook\ZealandBook
+build_property.MSBuildProjectDirectory = C:\Users\mikai\source\repos\Zealand Booking\ZealandZeabook\ZealandBook\ZealandBook
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/GitHub/ZealandZeabook/ZealandBook/ZealandBook/Pages/Error.cshtml]
+[C:/Users/mikai/source/repos/Zealand Booking/ZealandZeabook/ZealandBook/ZealandBook/Pages/Booking/CreateBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va2luZ1xDcmVhdGVCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mikai/source/repos/Zealand Booking/ZealandZeabook/ZealandBook/ZealandBook/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/ZealandZeabook/ZealandBook/ZealandBook/Pages/Index.cshtml]
+[C:/Users/mikai/source/repos/Zealand Booking/ZealandZeabook/ZealandBook/ZealandBook/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/ZealandZeabook/ZealandBook/ZealandBook/Pages/Privacy.cshtml]
+[C:/Users/mikai/source/repos/Zealand Booking/ZealandZeabook/ZealandBook/ZealandBook/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/ZealandZeabook/ZealandBook/ZealandBook/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mikai/source/repos/Zealand Booking/ZealandZeabook/ZealandBook/ZealandBook/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/ZealandZeabook/ZealandBook/ZealandBook/Pages/_ViewImports.cshtml]
+[C:/Users/mikai/source/repos/Zealand Booking/ZealandZeabook/ZealandBook/ZealandBook/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/ZealandZeabook/ZealandBook/ZealandBook/Pages/_ViewStart.cshtml]
+[C:/Users/mikai/source/repos/Zealand Booking/ZealandZeabook/ZealandBook/ZealandBook/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/ZealandZeabook/ZealandBook/ZealandBook/Pages/Shared/_Layout.cshtml]
+[C:/Users/mikai/source/repos/Zealand Booking/ZealandZeabook/ZealandBook/ZealandBook/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0lhr1r51fn
