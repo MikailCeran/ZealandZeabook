@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikai\\source\\repos\\Zealand Booking\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {}
+    "C:\\Users\\fraad\\OneDrive\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikai\\source\\repos\\Zealand Booking\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {
+    "C:\\Users\\fraad\\OneDrive\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikai\\source\\repos\\Zealand Booking\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+        "projectUniqueName": "C:\\Users\\fraad\\OneDrive\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
         "projectName": "ZealandBook",
-        "projectPath": "C:\\Users\\mikai\\source\\repos\\Zealand Booking\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
-        "packagesPath": "C:\\Users\\mikai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikai\\source\\repos\\Zealand Booking\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
+        "projectPath": "C:\\Users\\fraad\\OneDrive\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+        "packagesPath": "C:\\Users\\fraad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fraad\\OneDrive\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mikai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fraad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
