@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fraad\\OneDrive\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {}
+    "C:\\Users\\ceran\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fraad\\OneDrive\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {
+    "C:\\Users\\ceran\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fraad\\OneDrive\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+        "projectUniqueName": "C:\\Users\\ceran\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
         "projectName": "ZealandBook",
-        "projectPath": "C:\\Users\\fraad\\OneDrive\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
-        "packagesPath": "C:\\Users\\fraad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fraad\\OneDrive\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
+        "projectPath": "C:\\Users\\ceran\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+        "packagesPath": "C:\\Users\\ceran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ceran\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fraad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ceran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
