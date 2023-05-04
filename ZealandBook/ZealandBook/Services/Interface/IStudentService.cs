@@ -7,4 +7,3 @@ namespace ZealandBook.Services.Interface
         public void CreateStudent(Student student);
     }
 }
-//hej
