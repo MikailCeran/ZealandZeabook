@@ -10,6 +10,7 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddTransient<IBookingService, BookingService>();
 builder.Services.AddTransient<IRoomService, RoomService>();
+builder.Services.AddTransient<IStudentService, StudentService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

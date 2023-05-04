@@ -18,7 +18,7 @@ namespace ZealandBook
         {
             this.studentService = studentService;
         }
-        public IActionResult OnPost(Student student, int bid)
+        public IActionResult OnPost(Student student, int sid)
         {
             if (!ModelState.IsValid)
             {
