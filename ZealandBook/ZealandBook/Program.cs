@@ -1,5 +1,3 @@
-
-
 using ZealandBook.Services.ADONETService;
 using ZealandBook.Services.Interface;
 
@@ -9,8 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 builder.Services.AddTransient<IBookingService, BookingService>();
-builder.Services.AddTransient<IRoomService, RoomService>();
 builder.Services.AddTransient<IStudentService, StudentService>();
+builder.Services.AddTransient<ITeacherService, TeacherService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
