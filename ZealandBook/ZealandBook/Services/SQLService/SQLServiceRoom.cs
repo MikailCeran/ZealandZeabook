@@ -14,10 +14,10 @@ namespace ZealandBook.Services.SQLService
                 connection.Open();
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("RoomID", room.RoomID);
-                    command.Parameters.AddWithValue("@RoomType", room.RoomType);
+                    command.Parameters.AddWithValue("RoomID", room.Room_ID);
+                    command.Parameters.AddWithValue("@RoomType", room.Room_Type);
                     command.Parameters.AddWithValue("@RoomFacilities", room.RoomFacilities);
-                    command.Parameters.AddWithValue("@RoomSize", room.RoomSize);
+                    command.Parameters.AddWithValue("@RoomSize", room.Room_Size);
                     command.Parameters.AddWithValue("@Building", room.Building);
                     command.Parameters.AddWithValue("@Description", room.Description);
                     int affectedRows = command.ExecuteNonQuery();
