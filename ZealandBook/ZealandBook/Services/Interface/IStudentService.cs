@@ -1,6 +1,10 @@
-﻿namespace ZealandBook.Services.Interface
+﻿using ZealandBook.Models;
+
+namespace ZealandBook.Services.Interface
 {
-    public class IStudentService
+    public interface IStudentService
     {
+        public void CreateStudent(Student student);
     }
 }
+//hej
