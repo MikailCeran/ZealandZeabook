@@ -25,7 +25,7 @@ namespace ZealandBook
                 return Page();
             }
             bookingService.CreateBooking(booking);
-            return RedirectToPage("");
+            return RedirectToPage("/Booking/GetBooking");
         }
     }
 }
