@@ -1,0 +1,38 @@
+﻿@page
+@model ZealandBook.GetBookingModel
+@{
+    <title>@ViewData["Title"]</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+}
+<div class="container">
+    <h4>List of Bookings</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Booking ID</th>
+                <th>Booking date</th>
+                <th>Booking valid date</th>
+                <th>Student ID</th>
+                <th>Teacher ID</th>
+                <th>Room ID</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.bookings)
+            {
+                <tr>
+                    <td>@item.BookingID</td>
+                    <td>@item.DateFrom</td>
+                    <td>@item.DateTo</td>
+                    <td>@item.Student_Id</td>
+                    <td>@item.Teacher_Id</td>
+                    <td>@item.Room_Id</td>
+                    <td>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
