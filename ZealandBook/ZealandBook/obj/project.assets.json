@@ -3767,19 +3767,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ceran\\.nuget\\packages\\": {}
+    "C:\\Users\\Abuumin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ceran\\Desktop\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+      "projectUniqueName": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
       "projectName": "ZealandBook",
-      "projectPath": "C:\\Users\\ceran\\Desktop\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
-      "packagesPath": "C:\\Users\\ceran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ceran\\Desktop\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
+      "projectPath": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+      "packagesPath": "C:\\Users\\Abuumin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ceran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Abuumin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
