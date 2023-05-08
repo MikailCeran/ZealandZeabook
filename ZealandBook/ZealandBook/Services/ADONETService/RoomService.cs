@@ -10,5 +10,9 @@ namespace ZealandBook.Services.ADONETService
         {
             SQLServiceRoom.CreateRoom(room);
         }
+        public List<Room> GetAllRooms()
+        {
+            return SQLServiceRoom();
+        }
     }
 }

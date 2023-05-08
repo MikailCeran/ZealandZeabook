@@ -7,18 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="MockData\**" />
     <Compile Remove="Services\ADONETServices\**" />
     <Compile Remove="Services\Interfaces\**" />
+    <Content Remove="MockData\**" />
     <Content Remove="Services\ADONETServices\**" />
     <Content Remove="Services\Interfaces\**" />
+    <EmbeddedResource Remove="MockData\**" />
     <EmbeddedResource Remove="Services\ADONETServices\**" />
     <EmbeddedResource Remove="Services\Interfaces\**" />
+    <None Remove="MockData\**" />
     <None Remove="Services\ADONETServices\**" />
     <None Remove="Services\Interfaces\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="MockData\" />
   </ItemGroup>
 
   <ItemGroup>
