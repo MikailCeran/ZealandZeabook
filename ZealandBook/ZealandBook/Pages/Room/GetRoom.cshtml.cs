@@ -20,6 +20,7 @@ namespace ZealandBook
 
         public void OnGet()
         {
+           rooms= SQLServiceRoom.GetAllRooms();
         }
     }
 }

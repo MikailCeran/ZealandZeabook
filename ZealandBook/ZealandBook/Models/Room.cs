@@ -8,6 +8,7 @@
         public string RoomFacilities { get; set; }
         public string Building { get; set; }
         public string Description { get; set; }
+        public string Room_Name { get; set; }
 
     }
 }
