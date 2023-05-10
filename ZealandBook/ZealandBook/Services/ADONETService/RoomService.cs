@@ -14,6 +14,9 @@ namespace ZealandBook.Services.ADONETService
         {
             SQLServiceRoom.CreateRoom(room);
         }
-       
+        public  void UpdateRoomStatus(int rid)
+        {
+            SQLServiceRoom.UpdateRoomStatus(rid);
+        }
     }
 }

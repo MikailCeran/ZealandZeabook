@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using ZealandBook.Models;
 using ZealandBook.Pages.Booking;
 using ZealandBook.Services.Interface;
+using ZealandBook.Services.SQLService;
 
 namespace ZealandBook
 {
@@ -18,14 +19,15 @@ namespace ZealandBook
         {
             this.bookingService = bookingService;
         }
-        public IActionResult OnPost(Booking booking, int bid)
+        public IActionResult OnPost(Booking booking, int bid, int rid)
         {
             if (!ModelState.IsValid)
             {
                 return Page();
             }
             bookingService.CreateBooking(booking);
-            return RedirectToPage("/Booking/GetBooking");
+            SQLServiceRoom.UpdateRoomStatus(rid);
+            return RedirectToPage("GetBooking");
         }
     }
 }

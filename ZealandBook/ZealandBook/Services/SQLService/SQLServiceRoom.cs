@@ -53,5 +53,19 @@ namespace ZealandBook.Services.SQLService
                 }
             }
         }
+        public static void UpdateRoomStatus(int rid)
+        {
+            string query = $"Update Room set Room.Occupied =1 where Room.Room_Id = {rid}";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@rid", rid);
+                    int affectedRows = command.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }

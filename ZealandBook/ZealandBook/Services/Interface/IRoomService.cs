@@ -8,5 +8,6 @@ namespace ZealandBook.Services.Interface
         public List<Room> GetAllRooms();
        
         public void CreateRoom(Room room);
+        public void UpdateRoomStatus(int rid);
     }
 }

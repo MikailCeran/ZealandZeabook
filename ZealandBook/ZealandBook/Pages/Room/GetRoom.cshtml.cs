@@ -18,9 +18,13 @@ namespace ZealandBook
             this.roomService = service;
         }
 
-        public void OnGet()
+        public void OnGet(int rid)
         {
            rooms= SQLServiceRoom.GetAllRooms();
+        }
+        public void OnPost()
+        {
+
         }
     }
 }
