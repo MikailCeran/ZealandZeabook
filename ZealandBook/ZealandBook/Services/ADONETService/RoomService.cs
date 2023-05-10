@@ -18,5 +18,10 @@ namespace ZealandBook.Services.ADONETService
         {
             SQLServiceRoom.UpdateRoomStatus(rid);
         }
+
+        public int GetRoomId(int roomId)
+        {
+            return SQLServiceRoom.GetRoomId(roomId);
+        }
     }
 }

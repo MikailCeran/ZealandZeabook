@@ -9,5 +9,7 @@ namespace ZealandBook.Services.Interface
        
         public void CreateRoom(Room room);
         public void UpdateRoomStatus(int rid);
+
+        public int GetRoomId(int roomId);
     }
 }

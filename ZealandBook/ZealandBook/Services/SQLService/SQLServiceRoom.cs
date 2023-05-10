@@ -1,6 +1,7 @@
 ﻿using ZealandBook.Models;
 using Microsoft.Data.SqlClient;
 using ZealandBook.Services.ADONETService;
+using System.Security.Cryptography;
 
 namespace ZealandBook.Services.SQLService
 {
@@ -64,6 +65,20 @@ namespace ZealandBook.Services.SQLService
                 {
                     command.Parameters.AddWithValue("@rid", rid);
                     int affectedRows = command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public static int GetRoomId(int roomId)
+        {
+            string query = $"select Room_Id from Room";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using(SqlCommand command = new SqlCommand(@query, connection))
+                {
+                    
+                    return roomId;
                 }
             }
         }
