@@ -26,7 +26,7 @@ namespace ZealandBook
                 return Page();
             }
             roomService.CreateRoom(room);
-            return RedirectToPage("");
+            return RedirectToPage("GetRoom");
         }
     }
 }

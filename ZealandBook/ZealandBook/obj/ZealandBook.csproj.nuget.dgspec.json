@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zaen1\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {}
+    "C:\\Users\\mahoe\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zaen1\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {
+    "C:\\Users\\mahoe\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zaen1\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+        "projectUniqueName": "C:\\Users\\mahoe\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
         "projectName": "ZealandBook",
-        "projectPath": "C:\\Users\\zaen1\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
-        "packagesPath": "C:\\Users\\zaen1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zaen1\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
+        "projectPath": "C:\\Users\\mahoe\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+        "packagesPath": "C:\\Users\\mahoe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mahoe\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zaen1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mahoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

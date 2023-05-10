@@ -10,6 +10,8 @@ builder.Services.AddTransient<IBookingService, BookingService>();
 builder.Services.AddTransient<IStudentService, StudentService>();
 builder.Services.AddTransient<ITeacherService, TeacherService>();
 builder.Services.AddTransient<IRoomService, RoomService>();
+builder.Services.AddTransient<ILogInService, LogInService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

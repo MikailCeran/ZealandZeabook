@@ -1,0 +1,44 @@
+﻿@page
+@model ZealandBook.GetRoomModel
+@{
+    <title>@ViewData["Title"]</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+}
+<div class="container">
+    <h4>List of Rooms</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Room ID</th>
+                <th>Room Name</th>
+                <th>Room Type</th>
+                <th>Roome Size</th>
+                <th>Room Facilities</th>
+                <th>Building</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            @foreach (var item in Model.rooms)
+            {
+                <tr>
+                    <td>@item.Room_ID</td>
+                    <td>@item.Room_Name</td>
+                    <td>@item.Room_Type</td>
+                    <td>@item.Room_Size</td>
+                    <td>@item.RoomFacilities</td>
+                    <td>@item.Building</td>
+                    <td>@item.Description</td>
+                    <td>
+                        @if(item.Occupied == false)
+                        {
+                            <a class="btn" asp-page="/Booking/CreateBooking" asp-route-rid="@item.Room_ID">Book Room</a>
+                        }
+                    </td> 
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

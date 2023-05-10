@@ -11,15 +11,29 @@
         <form method="post">
             <div asp-validation-summary="  ModelOnly  " class="text-danger">
             </div>
-
+          <div class="form-group">
+                <label asp-for="@Model.room.Room_Name" class="control-label"></label>
+                <input asp-for="@Model.room.Room_Name" class="form-control" />
+                <span asp-validation-for="@Model.room.Room_Name" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <label asp-for="@Model.room.Room_Type" class="control-label"></label>
-                <input asp-for="@Model.room.Room_Type" class="form-control" />
+                <select asp-for="@Model.room.Room_Type" class="form-control">
+                    <option value="">Select Room Type</option>
+                    <option value="Klasselokale">Klasselokale</option>
+                    <option value="Mødelokale">Mødelokale</option>
+                    <option value="Eventlokale">Eventlokale</option>
+                    <option value="Laboratie">Laboratie</option>
+                </select>
                 <span asp-validation-for="@Model.room.Room_Type" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="@Model.room.Room_Size" class="control-label"></label>
-                <input asp-for="@Model.room.Room_Size" class="form-control" />
+                <select asp-for="@Model.room.Room_Size" class="form-control">
+                    <option value="">Select Room Size</option>
+                    <option value="Standard">Standard</option>
+                    <option value="Large">Large</option>
+                </select>
                 <span asp-validation-for="@Model.room.Room_Size" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -29,7 +43,13 @@
             </div>
             <div class="form-group">
                 <label asp-for="@Model.room.Building" class="control-label"></label>
-                <input asp-for="@Model.room.Building" class="form-control" />
+                <select asp-for="@Model.room.Building" class="form-control">
+                    <option value="">Select Building</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                </select>
                 <span asp-validation-for="@Model.room.Building" class="text-danger"></span>
 
             </div>    <div class="form-group">
