@@ -1,5 +1,6 @@
 ﻿using ZealandBook.Models;
 using Microsoft.Data.SqlClient;
+using Microsoft.AspNetCore.Identity;
 
 namespace ZealandBook.Services.SQLService
 {
@@ -8,7 +9,7 @@ namespace ZealandBook.Services.SQLService
         private static string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ZeabookDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         public static void CreateStudent(Student student)
         {
-            string query = $"INSERT into Student(Name, Email) Values(@Name, @Email)";
+            string query = $"INSERT into Student(Name, Email, Password) Values(@Name, @Email, @Password)";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -16,9 +17,64 @@ namespace ZealandBook.Services.SQLService
                 {
                     command.Parameters.AddWithValue("@Name", student.StudentName);
                     command.Parameters.AddWithValue("@Email", student.StudentEmail);
+                    command.Parameters.AddWithValue("@PasswordHasher", student.Password);
                     int affectedRows = command.ExecuteNonQuery();
                 }
             }
         }
+
+        public static List<Student> GetAllStudents()
+        {
+            List<Student> students = new List<Student>();
+            string query = "Select * from Booking";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand(query, connection);
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Student student = new Student();
+                        student.StudentId = Convert.ToInt32(reader[0]);
+                        student.StudentName = Convert.ToString(reader[1]);
+                        student.StudentEmail = Convert.ToString(reader[2]);
+                        student.Password = Convert.ToString(reader[3]);
+                        students.Add(student);
+
+                    }
+                }
+            }
+            return students;
+        }
+
+        public static Student GetStudentByEmailAndPassword(string username, string password)
+        {
+            string query = "SELECT * FROM Student WHERE Email = @Email AND Password = @Password";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Email", username);
+                    command.Parameters.AddWithValue("@Password", password);
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            Student student = new Student();
+                            student.StudentId = Convert.ToInt32(reader[0]);
+                            student.StudentName = Convert.ToString(reader[1]);
+                            student.StudentEmail = Convert.ToString(reader[2]);
+                            student.Password = Convert.ToString(reader[3]);
+                            return student;
+                        }
+                    }
+                }
+            }
+            return null;
+        }
+
     }
 }

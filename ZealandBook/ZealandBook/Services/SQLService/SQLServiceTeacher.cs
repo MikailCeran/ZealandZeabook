@@ -8,7 +8,7 @@ namespace ZealandBook.Services.SQLService
         private static string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ZeabookDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         public static void CreateTeacher(Teacher teacher)
         {
-            string query = $"INSERT into Teacher(Name, Email, Admin) Values(@Name, @Email, @Admin)";
+            string query = $"INSERT into Teacher(Name, Email, Admin) Values(@Name, @Email, @Password)";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -16,7 +16,7 @@ namespace ZealandBook.Services.SQLService
                 {
                     command.Parameters.AddWithValue("@Name", teacher.TeacherName);
                     command.Parameters.AddWithValue("@Email", teacher.TeacherEmail);
-                    command.Parameters.AddWithValue("@Admin", teacher.Admin);
+                    command.Parameters.AddWithValue("@Admin", teacher.Password);
                     int affectedRows = command.ExecuteNonQuery();
                 }
             }

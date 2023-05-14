@@ -1,5 +1,5 @@
 ﻿@page
-@model ZealandBook.Pages.LogIn.LogInLogInModel
+@model ZealandBook.LogInLogInModel
 @{
 }
 <head>
@@ -55,13 +55,21 @@
 </head>
 <body>
 	<h1>Log ind</h1>
-	<form>
+	<form method="post">
 		<label for="username">Brugernavn:</label>
-		<input type="text" id="username" name="username">
+		<input type="text" id="username" name="username" asp-for="Username">
+		<span asp-validation-for="Username"></span>
 
 		<label for="password">Kodeord:</label>
-		<input type="password" id="password" name="password">
+		<input type="password" id="password" name="password" asp-for="Password">
+		<span asp-validation-for="Password"></span>
+
 
 		<input type="submit" value="Log ind">
+		<br>
+		<br>
+		<div asp-validation-summary="ModelOnly"></div>
 	</form>
 </body>
+
+
