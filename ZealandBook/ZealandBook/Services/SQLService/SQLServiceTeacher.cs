@@ -5,7 +5,7 @@ namespace ZealandBook.Services.SQLService
 {
     public class SQLServiceTeacher
     {
-        private static string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ZeabookDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        private static string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=ZealandBook;Integrated Security=True";
         public static void CreateTeacher(Teacher teacher)
         {
             string query = $"INSERT into Teacher(Name, Email, Admin) Values(@Name, @Email, @Password)";

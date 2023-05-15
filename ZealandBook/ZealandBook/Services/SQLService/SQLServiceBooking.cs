@@ -6,7 +6,7 @@ namespace ZealandBook.Services.SQLService
 {
     public class SQLServiceBooking
     {
-        private static string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ZeabookDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        private static string connectionString = "Data Source=.\\SQLEXPRESS;Initial Catalog=ZealandBook;Integrated Security=True";
         public static List<Booking> GetAllBookings()
         {
             List<Booking> bookings = new List<Booking>();
