@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M28TY3dS/vrLl5gFRz8wK6QeJkEnlDsTL9a6rZNwN65fpW25vE+YbhDo7DBVJK0vIPX3j+lwCvwX9kcLAAe6kA==",
+  "dgSpecHash": "Rc4EQLfDtBavDjWOL7XPVX5guKBZ0/1SdOyswdS0UKXNzhEpU5iKRU01b9yQVe/R9emCvu3I8sp8JSeAYriMAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahoe\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+  "projectFilePath": "D:\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahoe\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mahoe\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

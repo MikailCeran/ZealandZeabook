@@ -10,49 +10,47 @@ namespace ZealandBook
 {
     public class LogInLogInModel : PageModel
     {
+        private readonly IStudentService studentService;
 
-        [BindProperty]
-        public Student student { get; set; } = new Student();
-        public IEnumerable<Student> students { get; set; }
-        private IStudentService studentService { get; set; }
-        public LogInLogInModel(IStudentService service)
+        public LogInLogInModel(IStudentService studentService)
         {
-            this.studentService = service;
+            this.studentService = studentService;
         }
 
-        [Required]
-        public string Username { get; set; }
+        [BindProperty]
+        public Student Student { get; set; }
 
+        [BindProperty]
         [Required]
+ 
+        [Display(Name = "Email")]
+        public string Email { get; set; }
+
+        [BindProperty]
+        [Required]
+        [DataType(DataType.Password)]
+        [Display(Name = "Password")]
         public string Password { get; set; }
-        
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            return Page();
         }
 
         public IActionResult OnPost()
         {
-            // Query the database for a student with the given username and password
-            Student student = studentService.GetStudentByEmailAndPassword(Username, Password);
+           
+            // Attempt to retrieve the student from the database
+            Student = studentService.GetStudentByEmailAndPassword(Email, Password);
 
-            // If no student was found, return an error
-            if (student == null)
+            if (Student == null)
             {
                 ModelState.AddModelError(string.Empty, "Invalid email or password");
                 return Page();
             }
 
-            // If a student was found, log them in
-            // You can store their information in a cookie or session
-            // Or you can redirect them to a new page
-            return RedirectToPage("Index");
+            // Redirect to the home page
+            return RedirectToPage("/Index");
         }
-
-
-
-
     }
-
-
 }

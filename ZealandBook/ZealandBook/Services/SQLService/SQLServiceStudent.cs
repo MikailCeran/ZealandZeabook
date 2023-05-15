@@ -48,7 +48,7 @@ namespace ZealandBook.Services.SQLService
             return students;
         }
 
-        public static Student GetStudentByEmailAndPassword(string username, string password)
+        public static Student GetStudentByEmailAndPassword(string email, string password)
         {
             string query = "SELECT * FROM Student WHERE Email = @Email AND Password = @Password";
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -56,7 +56,7 @@ namespace ZealandBook.Services.SQLService
                 connection.Open();
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@Email", username);
+                    command.Parameters.AddWithValue("@Email", email);
                     command.Parameters.AddWithValue("@Password", password);
 
                     using (SqlDataReader reader = command.ExecuteReader())
@@ -75,6 +75,43 @@ namespace ZealandBook.Services.SQLService
             }
             return null;
         }
+
+        //public static List<Booking> GetBookingsForStudent(int studentId)
+        //{
+        //    string query = "SELECT * FROM Booking WHERE Student_Id = @StudentId";
+        //    List<Booking> bookings = new List<Booking>();
+
+        //    using (SqlConnection connection = new SqlConnection(connectionString))
+        //    {
+        //        connection.Open();
+        //        using (SqlCommand command = new SqlCommand(query, connection))
+        //        {
+        //            command.Parameters.AddWithValue("@StudentId", studentId);
+
+        //            using (SqlDataReader reader = command.ExecuteReader())
+        //            {
+        //                while (reader.Read())
+        //                {
+        //                    Booking booking = new Booking();
+        //                    booking.BookingID = Convert.ToInt32(reader["Booking_Id"]);
+        //                    booking.DateFrom = Convert.ToDateTime(reader["Date_From"]);
+        //                    booking.DateTo = Convert.ToDateTime(reader["Date_To"]);
+        //                    booking.Student_Id = Convert.ToInt32(reader["Student_Id"]);
+        //                    booking.Teacher_Id = Convert.ToInt32(reader["Teacher_Id"]);
+        //                    booking.Room_Id = Convert.ToInt32(reader["Room_Id"]);
+        //                    bookings.Add(booking);
+        //                }
+        //            }
+        //        }
+        //    }
+
+        //    return bookings;
+        //}
+
+
+
+
+
 
     }
 }

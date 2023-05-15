@@ -8,8 +8,8 @@ namespace ZealandBook.Services.Interface
 
         public List<Student> GetAllStudents();
 
-        public Student GetStudentByEmailAndPassword(string username, string password);
+        public Student GetStudentByEmailAndPassword(string email, string password);
 
-
+        //public List<Booking> GetBookingsForStudent(int studentId);
     }
 }
