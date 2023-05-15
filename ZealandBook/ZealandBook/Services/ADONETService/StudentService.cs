@@ -10,5 +10,20 @@ namespace ZealandBook.Services.ADONETService
         {
             SQLServiceStudent.CreateStudent(student);
         }
+
+        public List<Student> GetAllStudents()
+        {
+            return SQLServiceStudent.GetAllStudents();
+        }
+
+        public Student GetStudentByEmailAndPassword(string email, string password)
+        {
+            return SQLServiceStudent.GetStudentByEmailAndPassword(email, password);
+        }
+
+        //public List<Booking> GetBookingsForStudent(int studentId)
+        //{
+        //    return SQLServiceStudent.GetBookingsForStudent(studentId);
+        //}
     }
 }

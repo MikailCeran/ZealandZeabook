@@ -6,5 +6,7 @@ namespace ZealandBook.Services.Interface
     {
         public void CreateBooking(Booking booking);
         public List<Booking> GetAllBookings();
+
+        //public List<Booking> GetBookingsByStudentId(int studentId);
     }
 }
