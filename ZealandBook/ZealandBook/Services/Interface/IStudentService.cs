@@ -10,6 +10,11 @@ namespace ZealandBook.Services.Interface
 
         public Student GetStudentByEmailAndPassword(string email, string password);
 
-        //public List<Booking> GetBookingsForStudent(int studentId);
+        public List<Booking> GetBookingsForStudent(int studentId);
+        void SetLoggedInStudent(Student student);
+        Student GetLoggedInStudent();
+
+        public Student GetStudentById(int studentId);
+
     }
 }
