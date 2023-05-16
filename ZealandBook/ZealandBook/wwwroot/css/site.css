@@ -254,3 +254,80 @@ tr:hover {
     .video-box:hover {
         transform: scale(1.05);
     }
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 100%; /* Adjusts the vertical position */
+    left: 0; /* Adjusts the horizontal position */
+    margin-top: 0;
+    border-radius: 0;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    min-width: 200px; /* Ensures the dropdown has a minimum width */
+    text-align: center; /* Centers the text in the dropdown */
+}
+
+.dropdown-menu.show {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+    color: white;
+}
+
+    .navbar-nav .dropdown-menu .dropdown-item:hover {
+        background-color: #495057;
+        color: white;
+    }
+
+.navbar-nav .dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    right: 0;
+}
+
+.navbar-nav .dropdown .dropdown-toggle {
+    color: #fff; /* Sets the text color */
+    padding: 10px; /* Adds some padding */
+    border: 1px solid #fff; /* Adds a border */
+    border-radius: 5px; /* Rounds the corners */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+    .navbar-nav .dropdown .dropdown-toggle:hover {
+        background-color: #495057; /* Changes the background on hover */
+        color: #fff; /* Keeps the text color white on hover */
+    }
+
+.navbar-nav.ml-auto {
+    margin-left: auto !important;
+}
+
+
+/*Login button*/
+
+.btn-primary {
+    color: #fff; /* Keeps the text color white */
+    background-color: #2f3a56; /* Matches your navbar */
+    border-color: #2f3a56; /* Matches your navbar */
+}
+
+    .btn-primary:hover {
+        color: #fff; /* Keeps the text color white on hover */
+        background-color: #24324d; /* Darker shade for hover */
+        border-color: #24324d; /* Darker shade for hover */
+    }
+
+    .btn-primary:focus,
+    .btn-primary.focus {
+        color: #fff; /* Keeps the text color white on focus */
+        background-color: #24324d; /* Darker shade for focus */
+        border-color: #1a2435; /* Even darker for focus border */
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Keeps the shadow */
+    }
