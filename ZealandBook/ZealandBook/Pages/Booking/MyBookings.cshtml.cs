@@ -1,31 +1,42 @@
-//using Microsoft.AspNetCore.Identity;
-//using Microsoft.AspNetCore.Mvc;
-//using Microsoft.AspNetCore.Mvc.RazorPages;
-//using ZealandBook.Models;
-//using ZealandBook.Services.Interface;
-//using ZealandBook.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
+using ZealandBook.Services.Interface;
+using ZealandBook.Models;
+using ZealandBook.Services.ADONETService;
 
-//namespace ZealandBook
-//{
-//    private readonly IStudentService _studentService;
-//    private readonly UserManager<Student> _userManager;
+namespace ZealandBook
+{
+    public class MyBookingsModel : PageModel
+    {
+        
+        private readonly IBookingService _bookingService;
+        private readonly IStudentService _studentService;
+        
 
-//    public MyBookingsModel(IStudentService studentService, UserManager<Student> userManager)
-//    {
-//        _studentService = studentService;
-//        _userManager = userManager;
-//    }
+        public MyBookingsModel(IBookingService bookingService, IStudentService studentService)
+        {
+            _bookingService = bookingService;
+            _studentService = studentService;
+        }
 
-//    public List<Booking> Bookings { get; set; }
+        
+        [BindProperty]
+        public IEnumerable<Booking> Bookings { get; set; }
 
-//    public async Task<IActionResult> OnGetAsync()
-//    {
-//        // Get the current user
-//        var user = await _userManager.GetUserAsync(User);
+        public IActionResult OnGet()
+        {
+            if (int.TryParse(HttpContext.Session.GetString("LoggedInStudentId"), out int studentId))
+            {
+                Student student = _studentService.GetStudentById(studentId);
+                Bookings = _bookingService.GetBookingsByStudentId(studentId);
 
-//        // Get the bookings for the current user
-//        Bookings = _studentService.GetBookingsForStudent(user.Id).ToList();
+            }
 
-//        return Page();
-//    }
-//}
+            return Page();
+
+        
+        }
+    }
+}
+

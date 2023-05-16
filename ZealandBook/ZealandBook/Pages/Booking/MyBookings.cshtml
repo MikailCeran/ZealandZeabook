@@ -1,5 +1,36 @@
-﻿@*@page
+﻿@page
 @model ZealandBook.MyBookingsModel
 @{
 }
-*@
+
+<h1>@ViewData["Title"]</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Booking ID</th>
+                <th>From</th>
+                <th>To</th>
+                <th>Teacher ID</th>
+                <th>Room ID</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        @if (Model.Bookings != null)
+        {
+            @foreach (var booking in Model.Bookings)
+            {
+                <tr>
+                    <td>@booking.BookingID</td>
+                    <td>@booking.DateFrom</td>
+                    <td>@booking.DateTo</td>
+                    <td>@booking.Teacher_Id</td>
+                    <td>@booking.Room_Id</td>
+                </tr>
+            }
+        }
+        </tbody>
+    </table>
+
+    <p>No bookings found.</p>

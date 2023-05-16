@@ -49,6 +49,8 @@ namespace ZealandBook
                 return Page();
             }
 
+            HttpContext.Session.SetString("LoggedInStudentId", Student.StudentId.ToString());
+
             // Redirect to the home page
             return RedirectToPage("/Index");
         }

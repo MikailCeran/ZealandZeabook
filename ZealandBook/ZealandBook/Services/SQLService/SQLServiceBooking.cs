@@ -51,20 +51,18 @@ namespace ZealandBook.Services.SQLService
             }
         }
 
-        public static List<Booking> GetBookingsByStudentId(int studentId)
+        public static List<Booking> GetBookingsByStudentId(int student)
         {
-            string query = "SELECT * FROM Bookings WHERE Student_Id = @StudentId";
             List<Booking> bookings = new List<Booking>();
-
+            string query = "SELECT * FROM Booking WHERE Student_Id = @StudentId";         
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                using (SqlCommand command = new SqlCommand(query, connection))
+                using (SqlCommand command = new SqlCommand(query, connection))                   
                 {
-                    command.Parameters.AddWithValue("@StudentId", studentId);
-
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
+                    command.Parameters.AddWithValue("@StudentId", student);     
+                    using (SqlDataReader reader = command.ExecuteReader())      
+                    { 
                         while (reader.Read())
                         {
                             Booking booking = new Booking();
@@ -79,6 +77,7 @@ namespace ZealandBook.Services.SQLService
                     }
                 }
             }
+
 
             return bookings;
         }
