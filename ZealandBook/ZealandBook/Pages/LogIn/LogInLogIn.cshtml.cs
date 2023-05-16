@@ -50,6 +50,8 @@ namespace ZealandBook
             }
 
             HttpContext.Session.SetString("LoggedInStudentId", Student.StudentId.ToString());
+            HttpContext.Session.SetString("LoggedInStudentName", Student.StudentName.ToString());
+
 
             // Redirect to the home page
             return RedirectToPage("/Index");
