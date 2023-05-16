@@ -1,0 +1,7 @@
+﻿@page
+@model ZealandBook.Pages.LogIn.LogOutModel
+@{
+    HttpContext.Session.Clear();
+    Response.Redirect("/");
+}
+
