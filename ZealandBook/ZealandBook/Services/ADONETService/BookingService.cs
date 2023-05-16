@@ -19,6 +19,11 @@ namespace ZealandBook.Services.ADONETService
         {
             return SQLServiceBooking.GetBookingsByStudentId(student);
         }
+        public List<Booking> GetBookingsByTeacherId(int id)
+        {
+            return SQLServiceBooking.GetBookingsByTeacherId(id);
+        }
+
 
     }
 }

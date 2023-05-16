@@ -32,31 +32,74 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/Room/GetRoom">Rooms</a>
                         </li>
-                        
-                        @if (Context.Session.GetString("LoggedInStudentId".ToString()) == null)
+
+                        @if (Context.Session.GetString("LoggedInStudentId") == null && Context.Session.GetString("LoggedInTeacherId") == null)
                         {
-                        <li class="nav-item">
-                            <a class="btn btn-outline-primary me-2" asp-area="" asp-page="/LogIn/LogInLogIn">Log Ind</a>
-                        </li>                       
+                            <li class="nav-item">
+                                <a class="btn btn-outline-primary me-2" asp-area="" asp-page="/LogIn/LogInLogIn">Log Ind</a>
+                            </li>
                         }
                         else
                         {
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                @Context.Session.GetString("LoggedInStudentName").ToString()
-                            </a>
-                            <ul class="dropdown-menu">                               
-                                <li>
-                                    <a class="dropdown-item" asp-page="/Booking/MyBookings">Dine Bookinger</a>
+                            if (Context.Session.GetString("LoggedInStudentId") != null)
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        @Context.Session.GetString("LoggedInStudentName")
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" asp-page="/Booking/MyBookings">Dine Bookinger</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-page="/LogIn/LogOut">Log Ud</a>
+                                        </li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <hr class="dropdown-divider">
+                            }
+                            else if (Context.Session.GetString("LoggedInTeacherId") != null)
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        @Context.Session.GetString("LoggedInTeacherName") @if (Context.Session.GetString("TeacherAdmin") != null)
+                                        {
+                                            <div class="input-group input-group-sm">
+                                                <input type="text" class="form-control" value="Admin" readonly>
+                                                <span class="input-group-text"><i class="bi bi-shield-lock"></i></span>
+                                            </div>
+
+                                        }
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" asp-page="/Booking/MyBookings">Dine Bookinger</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-page="/LogIn/LogOut">Log Ud</a>
+                                        </li>
+                                        <li>
+                                            @if (Context.Session.GetString("TeacherAdmin") != null)
+                                            {
+                                                <li>
+                                                    <a class="dropdown-item" asp-page="/Room/CreateRoom">Opret nyt rum</a>
+                                                    <a class="dropdown-item" asp-page="/Room/CreateRoom">Slet booking</a>
+                                                    <a class="dropdown-item" asp-page="/Room/CreateRoom">Opdater booking</a>
+                                                    <a class="dropdown-item" asp-page="/Room/CreateRoom">Book et rum</a>
+                                                    <a class="dropdown-item" asp-page="/Room/CreateRoom">Book til special event</a>
+                                                </li>
+                                            }
+                                        </li>
+
+
+                                    </ul>
                                 </li>
-                                <li>
-                                    <a class="dropdown-item" asp-page="/LogIn/LogOut">Log Ud</a>
-                                </li>
-                            </ul>
-                        </li>
+                            }
                         }
 
                     </ul>

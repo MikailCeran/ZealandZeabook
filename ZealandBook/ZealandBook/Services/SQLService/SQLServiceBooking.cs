@@ -81,6 +81,33 @@ namespace ZealandBook.Services.SQLService
 
             return bookings;
         }
+        public static List<Booking> GetBookingsByTeacherId(int id)
+        {
+            List<Booking> bookings = new List<Booking>();
+            string query = "SELECT * FROM Booking WHERE Teacher_Id = @TeacherId";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@TeacherId", id);
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            Booking booking = new Booking();
+                            booking.BookingID = Convert.ToInt32(reader["Booking_Id"]);
+                            booking.DateFrom = Convert.ToDateTime(reader["Date_From"]);
+                            booking.DateTo = Convert.ToDateTime(reader["Date_To"]);
+                            booking.Teacher_Id = Convert.ToInt32(reader["Teacher_Id"]);
+                            booking.Room_Id = Convert.ToInt32(reader["Room_Id"]);
+                            bookings.Add(booking);
+                        }
+                    }
+                }
+            }
+            return bookings;
+        }
 
 
 

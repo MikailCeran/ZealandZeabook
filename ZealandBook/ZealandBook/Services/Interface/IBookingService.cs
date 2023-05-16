@@ -8,5 +8,6 @@ namespace ZealandBook.Services.Interface
         public List<Booking> GetAllBookings();
 
         public List<Booking> GetBookingsByStudentId(int student);
+        public List<Booking> GetBookingsByTeacherId(int id);
     }
 }
