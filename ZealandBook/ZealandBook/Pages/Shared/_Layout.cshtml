@@ -28,21 +28,36 @@
                         <li class="nav-item">
                         <a class="nav-link" asp-area="" asp-page="/Booking/GetBooking">Bookings</a>
                         </li>
-                        @*<li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-page="/Booking/CreateBooking">Create Bookings</a>
-                        </li> *@
-                        @*<li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-page="/Student/CreateStudent">Create Student</a>
-                        </li>*@
-                       @* <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Room/CreateRoom">Create Room</a>
-                        </li>*@
+                        
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/Room/GetRoom">Rooms</a>
                         </li>
+                        
+                        @if (Context.Session.GetString("LoggedInStudentId".ToString()) == null)
+                        {
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/LogIn/LogInLogIn">Log Ind</a>
+                            <a class="btn btn-outline-primary me-2" asp-area="" asp-page="/LogIn/LogInLogIn">Log Ind</a>
+                        </li>                       
+                        }
+                        else
+                        {
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                @Context.Session.GetString("LoggedInStudentName").ToString()
+                            </a>
+                            <ul class="dropdown-menu">                               
+                                <li>
+                                    <a class="dropdown-item" asp-page="/Booking/MyBookings">Dine Bookinger</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" asp-page="/LogIn/LogOut">Log Ud</a>
+                                </li>
+                            </ul>
                         </li>
+                        }
 
                     </ul>
                 </div>

@@ -27,13 +27,15 @@ namespace ZealandBook
         public IActionResult OnGet()
         {
             if (int.TryParse(HttpContext.Session.GetString("LoggedInStudentId"), out int studentId))
-        {
-            Student student = _studentService.GetStudentById(studentId);
-            _bookingService.GetBookingsByStudentId(studentId);
-            
-        }
+            {
+                Student student = _studentService.GetStudentById(studentId);
+                Bookings = _bookingService.GetBookingsByStudentId(studentId);
 
-        return Page();
+            }
+
+            return Page();
+
+        
         }
     }
 }
