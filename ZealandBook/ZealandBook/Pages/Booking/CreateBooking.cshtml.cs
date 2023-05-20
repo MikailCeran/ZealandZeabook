@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ZealandBook.Models;
 using ZealandBook.Pages.Booking;
@@ -20,20 +21,22 @@ namespace ZealandBook
             this.bookingService = bookingService;
         }
 
-        public void OnGet(int rid, int studentId, int teacherId)
+        public void OnGet(int rid)
         {
-            if (int.TryParse(HttpContext.Session.GetString("LoggedInStudentId"), out  studentId))
+            if (int.TryParse(HttpContext.Session.GetString("LoggedInStudentId"), out int studentId))
             {
                 booking.Student_Id = studentId;
             }
-            if (int.TryParse(HttpContext.Session.GetString("LoggedInTeacherId"), out  teacherId))
+           
+            if (int.TryParse(HttpContext.Session.GetString("LoggedInTeacherId"), out int teacherId))
             {
                 booking.Teacher_Id = teacherId;
             }
+            
 
             booking.Room_Id = rid;
         }
-        public IActionResult OnPost(Booking booking, int bid, int rid, int roomId, int teacherId, int studentId)
+        public IActionResult OnPost(Booking booking, int bid, int rid, int roomId)
         {
             if (!ModelState.IsValid)
             {
@@ -41,7 +44,7 @@ namespace ZealandBook
             }
             bookingService.CreateBooking(booking);
             SQLServiceRoom.UpdateRoomStatus(rid);
-            return RedirectToPage("GetBooking");
+            return RedirectToPage("MyBookings");
             
 
 
