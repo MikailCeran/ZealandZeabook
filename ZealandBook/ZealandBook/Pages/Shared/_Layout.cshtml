@@ -26,37 +26,79 @@
                             <a class="nav-link" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-page="/Booking/GetBooking">Bookings</a>
+                            <a class="nav-link" asp-area="" asp-page="/Booking/GetBooking">Bookings</a>
                         </li>
-                        
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/Room/GetRoom">Rooms</a>
                         </li>
-                        
-                        @if (Context.Session.GetString("LoggedInStudentId".ToString()) == null)
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        @if (Context.Session.GetString("LoggedInStudentId") == null && Context.Session.GetString("LoggedInTeacherId") == null)
                         {
-                        <li class="nav-item">
-                            <a class="btn btn-outline-primary me-2" asp-area="" asp-page="/LogIn/LogInLogIn">Log Ind</a>
-                        </li>                       
+                            <li class="nav-item">
+<a class="btn btn-primary my-2 my-sm-0" asp-area="" asp-page="/LogIn/LogInLogIn">Log Ind</a>
+                            </li>
                         }
                         else
                         {
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                @Context.Session.GetString("LoggedInStudentName").ToString()
-                            </a>
-                            <ul class="dropdown-menu">                               
-                                <li>
-                                    <a class="dropdown-item" asp-page="/Booking/MyBookings">Dine Bookinger</a>
+                            if (Context.Session.GetString("LoggedInStudentId") != null)
+                            {
+                             <li class="nav-item dropdown ml-auto">
+                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                              @Context.Session.GetString("LoggedInTeacherName")
+                                           </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li>
+                                            <a class="dropdown-item" asp-page="/Booking/MyBookings">Dine Bookinger</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-page="/LogIn/LogOut">Log Ud</a>
+                                        </li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" asp-page="/LogIn/LogOut">Log Ud</a>
-                                </li>
-                            </ul>
-                        </li>
+                            }
+                            else if (Context.Session.GetString("LoggedInTeacherId") != null)
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        @Context.Session.GetString("LoggedInTeacherName")
+                                        @if (Context.Session.GetString("TeacherAdmin") != null)
+                                        {
+                                            <div class="input-group input-group-sm custom-input-group">
+                                                <input type="text" class="form-control custom-input" value="Admin" readonly>
+                                                <span class="input-group-text custom-span"><i class="bi bi-shield-lock"></i></span>
+                                            </div>
+                                        }
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li>
+                                            <a class="dropdown-item" asp-page="/Booking/MyBookings">Dine Bookinger</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-page="/LogIn/LogOut">Log Ud</a>
+                                        </li>
+                                            @if (Context.Session.GetString("TeacherAdmin") != null)
+                                            {
+                                                <li>
+                                                    <a class="dropdown-item" asp-page="/Room/CreateRoom">Opret nyt rum</a>
+                                                    <a class="dropdown-item" asp-page="/Room/CreateRoom">Slet booking</a>
+                                                    <a class="dropdown-item" asp-page="/Room/CreateRoom">Opdater booking</a>
+                                                    <a class="dropdown-item" asp-page="/Room/CreateRoom">Book et rum</a>
+                                                    <a class="dropdown-item" asp-page="/Room/CreateRoom">Book til special event</a>
+                                                </li>
+                                            }
+                                        </ul>
+
+
+                                    </li>
+                               
+                            }
                         }
 
                     </ul>
