@@ -110,6 +110,54 @@ namespace ZealandBook.Services.SQLService
         }
 
 
+        public static void DeleteBooking(int bookingId)
+        {
+            string query = "DELETE FROM Booking WHERE Booking_Id = @BookingId";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@BookingId", bookingId);
+                    int affectedRows = command.ExecuteNonQuery();
+                    if (affectedRows == 0)
+                    {
+                        throw new Exception("No booking found with the provided ID.");
+                    }
+                }
+            }
+        }
+
+
+        public static Booking GetBookingById(int id)
+        {
+            Booking booking = null;
+            string query = "SELECT * FROM Booking WHERE Booking_Id = @Booking_Id";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Booking_Id", id);
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            booking = new Booking();
+                            booking.BookingID = Convert.ToInt32(reader[0]);
+                            booking.DateFrom = Convert.ToDateTime(reader[1]);
+                            booking.DateTo = Convert.ToDateTime(reader[2]);
+                            booking.Student_Id = Convert.ToInt32(reader[3]);
+                            booking.Teacher_Id = Convert.ToInt32(reader[4]);
+                            booking.Room_Id = Convert.ToInt32(reader[5]);
+                        }
+                    }
+                }
+            }
+            return booking;
+        }
+
+
 
     }
 

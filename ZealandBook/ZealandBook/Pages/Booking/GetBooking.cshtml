@@ -29,11 +29,19 @@
                     <td>@item.Student_Id</td>
                     <td>@item.Teacher_Id</td>
                     <td>@item.Room_Id</td>
-                    <td>
-                    </td>
+                    @{
+                        var isAdmin = HttpContext.Session.GetString("TeacherAdmin") == "True";
+                    }
+                    @if (isAdmin)
+                    {
+                        <td>
+                            <a asp-page="/Booking/DeleteBooking" asp-route-id="@item.BookingID" class="btn btn-danger">Delete</a>
+                        </td>
+                    }
                 </tr>
             }
         </tbody>
+
     </table>
 
     <a asp-area="" asp-page="/Booking/MyBookings" class="btn btn-primary">Dine bookinger</a>

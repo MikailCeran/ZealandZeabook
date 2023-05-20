@@ -4,17 +4,25 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="intro-box text-center" style="color:white">
+<div class="intro-box text-center">
     <h1 class="display-4">Zeabook</h1>
+    @{
+        var loggedInStudentId = HttpContext.Session.GetString("LoggedInStudentId");
+        var loggedInTeacherId = HttpContext.Session.GetString("LoggedInTeacherId");
+        var isUserLoggedIn = !string.IsNullOrEmpty(loggedInStudentId) || !string.IsNullOrEmpty(loggedInTeacherId);
+    }
+
+    @if (isUserLoggedIn)
+    {
+        <div class="home-container">
+            <h3 class="home-header">Create Booking</h3>
+            <a href="/Booking/CreateBooking" class="home-link">
+                <img src="~/images/zealand-markedsføringsøkonom-slagelse.jpg" class="home-image" />
+            </a>
+            <h3 class="home-header">My Bookings</h3>
+            <a href="/Booking/MyBookings" class="home-link">
+                <img src="~/images/zealand-2.jpg" class="home-image" />
+            </a>
+        </div>
+    }
 </div>
-
-<div class="text-center">
-    <a href="/Booking/GetBooking" class="picture-box">
-        <img src="~/images/zealand-2.jpg" alt="Option 1" />
-    </a>
-    <a href="/Booking/CreateBooking" class="picture-box">
-        <img src="~/images/zealand-markedsføringsøkonom-slagelse.jpg" />
-    </a>
-</div>
-
-
