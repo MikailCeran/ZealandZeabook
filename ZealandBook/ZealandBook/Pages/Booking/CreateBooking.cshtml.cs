@@ -10,6 +10,7 @@ namespace ZealandBook
     public class CreateBookingModel : PageModel
     {
        
+
         [BindProperty]
         public Booking booking { get; set; } = new Booking();
       
@@ -19,11 +20,20 @@ namespace ZealandBook
             this.bookingService = bookingService;
         }
 
-        public void OnGet(int rid)
+        public void OnGet(int rid, int studentId, int teacherId)
         {
+            if (int.TryParse(HttpContext.Session.GetString("LoggedInStudentId"), out  studentId))
+            {
+                booking.Student_Id = studentId;
+            }
+            if (int.TryParse(HttpContext.Session.GetString("LoggedInTeacherId"), out  teacherId))
+            {
+                booking.Teacher_Id = teacherId;
+            }
+
             booking.Room_Id = rid;
         }
-        public IActionResult OnPost(Booking booking, int bid, int rid, int roomId)
+        public IActionResult OnPost(Booking booking, int bid, int rid, int roomId, int teacherId, int studentId)
         {
             if (!ModelState.IsValid)
             {
