@@ -38,7 +38,7 @@ namespace ZealandBook.Services.SQLService
         }
         public static void CreateRoom(Room room)
         {
-            string query = $"INSERT into Room(Room_Type, Room_Size, Smartboard, Building, Description, Room_Name) Values(@Room_Type, @Room_Size, @Smartboard, @Building, @Description, @Room_Name)";
+            string query = $"INSERT into Room(Room_Type, Room_Size, Smartboard, Building, Description, Room_Name, Occupied) Values(@Room_Type, @Room_Size, @Smartboard, @Building, @Description, @Room_Name, @Occupied)";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -50,6 +50,7 @@ namespace ZealandBook.Services.SQLService
                     command.Parameters.AddWithValue("@Building", room.Building);
                     command.Parameters.AddWithValue("@Description", room.Description);
                     command.Parameters.AddWithValue("@Room_Name", room.Room_Name);
+                    command.Parameters.AddWithValue("@Occupied", room.Occupied);
                     int affectedRows = command.ExecuteNonQuery();
                 }
             }
