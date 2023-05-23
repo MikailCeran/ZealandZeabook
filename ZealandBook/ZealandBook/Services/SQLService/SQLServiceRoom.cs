@@ -83,5 +83,33 @@ namespace ZealandBook.Services.SQLService
                 }
             }
         }
+        public static List<Room> GetAllAvailableRooms()
+        {
+            List<Room> rooms = new List<Room>();
+            string query = "SELECT * FROM Room WHERE Occupied = 0";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand(query, connection);
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Room room = new Room();
+                        room.Room_ID = Convert.ToInt32(reader[0]);
+                        room.Room_Type = Convert.ToString(reader[1]);
+                        room.Room_Size = Convert.ToString(reader[2]);
+                        room.RoomFacilities = Convert.ToString(reader[3]);
+                        room.Building = Convert.ToString(reader[4]);
+                        room.Description = Convert.ToString(reader[5]);
+                        room.Room_Name = Convert.ToString(reader[6]);
+                        rooms.Add(room);
+
+                    }
+                }
+            }
+            return rooms;
+        }
+
     }
 }
