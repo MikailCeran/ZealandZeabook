@@ -182,8 +182,14 @@ namespace ZealandBook.Services.SQLService
                             booking.BookingID = Convert.ToInt32(reader[0]);
                             booking.DateFrom = Convert.ToDateTime(reader[1]);
                             booking.DateTo = Convert.ToDateTime(reader[2]);
-                            booking.Student_Id = Convert.ToInt32(reader[3]);
-                            booking.Teacher_Id = Convert.ToInt32(reader[4]);
+                            if (!reader.IsDBNull(3))
+                                booking.Student_Id = Convert.ToInt32(reader[3]);
+                            else
+                                booking.Student_Id = null;
+                            if (!reader.IsDBNull(4))
+                                booking.Teacher_Id = Convert.ToInt32(reader[4]);
+                            else
+                                booking.Teacher_Id = null;
                             booking.Room_Id = Convert.ToInt32(reader[5]);
                         }
                     }
@@ -191,6 +197,7 @@ namespace ZealandBook.Services.SQLService
             }
             return booking;
         }
+
 
 
 

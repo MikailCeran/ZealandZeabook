@@ -329,62 +329,45 @@ tr:hover {
 
 
 
-.dl-horizontal {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+.delete-booking-container {
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
     margin: 0 auto;
-    max-width: 600px;
 }
 
-    .dl-horizontal dt {
-        float: left;
-        width: 160px;
-        overflow: hidden;
-        clear: left;
-        text-align: left;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        color: #2f3a56;
+    .delete-booking-container h1 {
+        color: #dc3545; /* This is a red color. Change it to match your desired red. */
     }
 
-    .dl-horizontal dd {
-        margin-left: 180px;
-        color: #666;
-    }
+.booking-details {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
 
-form {
-    text-align: center;
-    margin-top: 40px;
+h3 {
+    color: #2f3a56;
+}
+
+.dl-horizontal {
+    font-size: 14px;
+    color: #666;
 }
 
 .btn-danger {
-    background-color: #dc3545;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
 }
 
-    .btn-danger:hover {
-        background-color: white;
-        color: black;
-        border: 2px solid #dc3545;
-    }
-
-a {
-    text-decoration: none;
-    color: #007bff;
-    transition-duration: 0.4s;
+.back-link {
+    color: #2f3a56;
+    transition: color 0.3s ease;
 }
 
-    a:hover {
-        color: #0056b3;
+    .back-link:hover {
+        color: #24324d;
     }
-
-
-
