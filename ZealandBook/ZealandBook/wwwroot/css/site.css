@@ -324,64 +324,50 @@ tr:hover {
 
 
 
-
-/* Delete Booking Page */
-
-
-
-.dl-horizontal {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    margin: 0 auto;
-    max-width: 600px;
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
 }
 
-    .dl-horizontal dt {
-        float: left;
-        width: 160px;
-        overflow: hidden;
-        clear: left;
-        text-align: left;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        color: #2f3a56;
+    .btn-danger:hover {
+        background-color: #c82333;
     }
 
-    .dl-horizontal dd {
-        margin-left: 180px;
-        color: #666;
-    }
 
-form {
-    text-align: center;
-    margin-top: 40px;
+
+
+
+
+
+
+.dl-horizontal dt {
+    font-weight: bold;
+}
+
+.dl-horizontal dd {
+    margin-left: 0;
 }
 
 .btn-danger {
     background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
     border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
+    border-radius: 4px;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+    margin-right: 10px;
 }
 
     .btn-danger:hover {
-        background-color: white;
-        color: black;
-        border: 2px solid #dc3545;
+        background-color: #c82333;
     }
 
-a {
-    text-decoration: none;
+.back-link {
+    margin-top: 10px;
+    display: inline-block;
     color: #007bff;
-    transition-duration: 0.4s;
 }
-
-    a:hover {
-        color: #0056b3;
-    }
