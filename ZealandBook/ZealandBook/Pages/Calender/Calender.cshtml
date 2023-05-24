@@ -1,0 +1,30 @@
+﻿@page
+@model CalendarModel
+
+<h2>Calendar</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var date in Model.Dates)
+        {
+            <tr>
+                @for (int i = 0; i < (int)date.DayOfWeek; i++)
+                {
+                    <td></td>
+                }
+                <td>@date.Day</td>
+            </tr>
+        }
+    </tbody>
+</table>

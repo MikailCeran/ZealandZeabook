@@ -1,31 +1,33 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using ZealandBook.Models;
+using ZealandBook.Pages.Room;
 using ZealandBook.Services.Interface;
 using ZealandBook.Services.SQLService;
-using ZealandBook.Pages.Room;
-using ZealandBook.Models;
 
 namespace ZealandBook
 {
-    public class GetRoomModel : PageModel
+    public class GetAvailableRoomModel : PageModel
     {
         [BindProperty]
-        public Room room{ get; set; } = new Room();
+        Room room { get; set; } = new Room();
         public IEnumerable<Room> rooms { get; set; }
         private IRoomService roomService { get; set; }
-        public GetRoomModel(IRoomService service)
+
+        public GetAvailableRoomModel(IRoomService service)
         {
             this.roomService = service;
         }
 
         public void OnGet(int rid)
         {
-           rooms= SQLServiceRoom.GetAllRooms();
+            SQLServiceRoom.UpdateOccupiedStatusOfRooms();
+            rooms = SQLServiceRoom.GetAllAvailableRooms();
+
         }
         public void OnPost()
         {
-            
+
         }
     }
 }
-

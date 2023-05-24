@@ -59,9 +59,11 @@ namespace ZealandBook
             }
             else if (Teacher != null)
             {
+
                 HttpContext.Session.SetString("LoggedInTeacherId", Teacher.TeacherID.ToString());
-                HttpContext.Session.SetString("TeacherAdmin", Teacher.Admin.ToString());
+                HttpContext.Session.SetString("TeacherAdmin", Teacher.Admin.ToString().ToLower());
                 HttpContext.Session.SetString("LoggedInTeacherName", Teacher.TeacherName.ToString());
+                
 
                 // Redirect to the home page
                 return RedirectToPage("/Index");
@@ -71,6 +73,10 @@ namespace ZealandBook
                 ModelState.AddModelError(string.Empty, "Invalid email or password");
                 return Page();
             }
+
+
+           
+
         }
 
     }

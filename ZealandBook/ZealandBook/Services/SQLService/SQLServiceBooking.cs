@@ -10,77 +10,112 @@ namespace ZealandBook.Services.SQLService
         public static List<Booking> GetAllBookings()
         {
             List<Booking> bookings = new List<Booking>();
-            string query = "Select * from Booking";
+            string query = "SELECT * FROM Booking";
+
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand(query, connection);
-                using (SqlDataReader reader = command.ExecuteReader())
+
+                using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    while (reader.Read())
+                    using (SqlDataReader reader = command.ExecuteReader())
                     {
-                        Booking book= new Booking();
-                        book.BookingID = Convert.ToInt32(reader[0]);
-                        book.DateFrom = Convert.ToDateTime(reader[1]);
-                        book.DateTo = Convert.ToDateTime(reader[2]);
-                        book.Student_Id= Convert.ToInt32(reader[3]);
-                        book.Teacher_Id= Convert.ToInt32(reader[4]);
-                        book.Room_Id= Convert.ToInt32(reader[5]);
-                        bookings.Add(book);
-                       
+                        while (reader.Read())
+                        {
+                            Booking book = new Booking();
+                            book.BookingID = Convert.ToInt32(reader[0]);
+                            book.DateFrom = Convert.ToDateTime(reader[1]);
+                            book.DateTo = Convert.ToDateTime(reader[2]);
+
+                            if (!reader.IsDBNull(3))
+                                book.Student_Id = Convert.ToInt32(reader[3]);
+                            else
+                                book.Student_Id = null;
+
+                            if (!reader.IsDBNull(4))
+                                book.Teacher_Id = Convert.ToInt32(reader[4]);
+                            else
+                                book.Teacher_Id = null;
+
+                            book.Room_Id = Convert.ToInt32(reader[5]);
+
+                            bookings.Add(book);
+                        }
                     }
                 }
             }
-            return  bookings;
+
+            return bookings;
         }
+
         public static void CreateBooking(Booking booking)
         {
-            string query = $"INSERT into Booking(Date_From,Date_To,Student_Id, Teacher_Id,Room_Id) Values(@Date_From,@Date_To,@Student_Id, @Teacher_Id,@Room_Id)";
+            string query = "INSERT INTO Booking (Date_From, Date_To, Student_Id, Teacher_Id, Room_Id) " +
+                           "VALUES (@Date_From, @Date_To, @Student_Id, @Teacher_Id, @Room_Id)";
+
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
+
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@Date_From", booking.DateFrom);
                     command.Parameters.AddWithValue("@Date_To", booking.DateTo);
-                    command.Parameters.AddWithValue("@Student_Id", booking.Student_Id);
-                    command.Parameters.AddWithValue("@Teacher_Id", booking.Teacher_Id);
+
+                    command.Parameters.AddWithValue("@Student_Id", booking.Student_Id.HasValue ? (object)booking.Student_Id.Value : DBNull.Value);
+                    command.Parameters.AddWithValue("@Teacher_Id", booking.Teacher_Id.HasValue ? (object)booking.Teacher_Id.Value : DBNull.Value);
+
                     command.Parameters.AddWithValue("@Room_Id", booking.Room_Id);
+
                     int affectedRows = command.ExecuteNonQuery();
                 }
             }
         }
 
+
         public static List<Booking> GetBookingsByStudentId(int student)
         {
             List<Booking> bookings = new List<Booking>();
-            string query = "SELECT * FROM Booking WHERE Student_Id = @StudentId";         
+            string query = "SELECT * FROM Booking WHERE Student_Id = @StudentId";
+
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                using (SqlCommand command = new SqlCommand(query, connection))                   
+
+                using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@StudentId", student);     
-                    using (SqlDataReader reader = command.ExecuteReader())      
-                    { 
+                    command.Parameters.AddWithValue("@StudentId", student);
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
                         while (reader.Read())
                         {
                             Booking booking = new Booking();
                             booking.BookingID = Convert.ToInt32(reader["Booking_Id"]);
                             booking.DateFrom = Convert.ToDateTime(reader["Date_From"]);
                             booking.DateTo = Convert.ToDateTime(reader["Date_To"]);
-                            booking.Student_Id = Convert.ToInt32(reader["Student_Id"]);
-                            booking.Teacher_Id = Convert.ToInt32(reader["Teacher_Id"]);
+
+                            if (!reader.IsDBNull(reader.GetOrdinal("Student_Id")))
+                                booking.Student_Id = Convert.ToInt32(reader["Student_Id"]);
+                            else
+                                booking.Student_Id = null;
+
+                            if (!reader.IsDBNull(reader.GetOrdinal("Teacher_Id")))
+                                booking.Teacher_Id = Convert.ToInt32(reader["Teacher_Id"]);
+                            else
+                                booking.Teacher_Id = null;
+
                             booking.Room_Id = Convert.ToInt32(reader["Room_Id"]);
+
                             bookings.Add(booking);
                         }
                     }
                 }
             }
 
-
             return bookings;
         }
+
         public static List<Booking> GetBookingsByTeacherId(int id)
         {
             List<Booking> bookings = new List<Booking>();
