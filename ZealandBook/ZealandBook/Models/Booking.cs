@@ -8,8 +8,8 @@
         
 
         //Foreign keys
-        public int Student_Id { get; set; }
-        public int Teacher_Id{ get; set; }
+        public int? Student_Id { get; set; }
+        public int? Teacher_Id{ get; set; }
         public int Room_Id { get; set; }
     
     }

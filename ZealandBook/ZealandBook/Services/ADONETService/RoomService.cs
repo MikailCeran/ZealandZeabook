@@ -23,5 +23,9 @@ namespace ZealandBook.Services.ADONETService
         {
             return SQLServiceRoom.GetRoomId(roomId);
         }
+        public List<Room> GetAllAvailableRooms()
+        {
+            return SQLServiceRoom.GetAllAvailableRooms();
+        }
     }
 }

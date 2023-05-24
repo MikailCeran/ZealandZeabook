@@ -24,6 +24,16 @@ namespace ZealandBook.Services.ADONETService
             return SQLServiceBooking.GetBookingsByTeacherId(id);
         }
 
+        public void DeleteBooking(int id)
+        {
+            SQLServiceBooking.DeleteBooking(id);
+        }
+
+        public Booking GetBookingById(int id)
+        {
+            return SQLServiceBooking.GetBookingById(id);
+        }
+
 
     }
 }

@@ -24,13 +24,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Booking/GetBooking">Bookings</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Room/GetRoom">Rooms</a>
-                        </li>
+                       </li>
                     </ul>
                     <ul class="navbar-nav ml-auto">
                         @if (Context.Session.GetString("LoggedInStudentId") == null && Context.Session.GetString("LoggedInTeacherId") == null)
@@ -83,11 +77,11 @@
                                         <li>
                                             <a class="dropdown-item" asp-page="/LogIn/LogOut">Log Ud</a>
                                         </li>
-                                            @if (Context.Session.GetString("TeacherAdmin") != null)
-                                            {
+                                        @if (Context.Session.GetString("TeacherAdmin").Contains("true"))
+                                        {
                                                 <li>
                                                     <a class="dropdown-item" asp-page="/Room/CreateRoom">Opret nyt rum</a>
-                                                    <a class="dropdown-item" asp-page="/Room/CreateRoom">Slet booking</a>
+                                                    <a class="dropdown-item" asp-page="/Booking/DeleteBooking">Slet booking</a>
                                                     <a class="dropdown-item" asp-page="/Room/CreateRoom">Opdater booking</a>
                                                     <a class="dropdown-item" asp-page="/Room/CreateRoom">Book et rum</a>
                                                     <a class="dropdown-item" asp-page="/Room/CreateRoom">Book til special event</a>
