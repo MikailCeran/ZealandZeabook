@@ -35,15 +35,25 @@
                         }
                         else
                         {
-                            if (Context.Session.GetString("LoggedInStudentId") != null)
+                            @if (Context.Session.GetString("LoggedInStudentId") != null)
                             {
-                             <li class="nav-item dropdown ml-auto">
-                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                              @Context.Session.GetString("LoggedInTeacherName")
-                                           </a>
+                                <li class="nav-item dropdown ml-auto">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        @Context.Session.GetString("LoggedInStudentName")
+                                        <div class="input-group input-group-sm custom-input-group">
+                                            <input type="text" class="form-control custom-input" value="Student" readonly>
+                                            <span class="input-group-text custom-span"><i class="bi bi-person-fill"></i></span>
+                                        </div>
+                                    </a>
                                     <ul class="dropdown-menu dropdown-menu-end">
                                         <li>
                                             <a class="dropdown-item" asp-page="/Booking/MyBookings">Dine Bookinger</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-page="/Room/GetAvailableRoom">Book room</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-page="/Room/GetRoom">View Rooms</a>
                                         </li>
                                         <li>
                                             <hr class="dropdown-divider">
@@ -54,6 +64,7 @@
                                     </ul>
                                 </li>
                             }
+
                             else if (Context.Session.GetString("LoggedInTeacherId") != null)
                             {
                                 <li class="nav-item dropdown">
@@ -81,7 +92,7 @@
                                         {
                                                 <li>
                                                     <a class="dropdown-item" asp-page="/Room/CreateRoom">Opret nyt rum</a>
-                                                    <a class="dropdown-item" asp-page="/Booking/DeleteBooking">Slet booking</a>
+                                                    <a class="dropdown-item" asp-page="/Booking/GetBooking">Slet booking</a>
                                                     <a class="dropdown-item" asp-page="/Room/CreateRoom">Opdater booking</a>
                                                     <a class="dropdown-item" asp-page="/Room/CreateRoom">Book et rum</a>
                                                     <a class="dropdown-item" asp-page="/Room/CreateRoom">Book til special event</a>

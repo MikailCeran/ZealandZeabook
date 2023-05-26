@@ -30,13 +30,15 @@
                     <td>@item.Teacher_Id</td>
                     <td>@item.Room_Id</td>
                     @{
-                        var isAdmin = HttpContext.Session.GetString("TeacherAdmin") == "True";
+                        var isAdmin = HttpContext.Session.GetString("TeacherAdmin") == "true";
                     }
                     @if (isAdmin)
                     {
                         <td>
-                            <a asp-page="/Booking/DeleteBooking" asp-route-id="@item.BookingID" class="btn btn-danger">Delete</a>
+                            <a asp-page="/Booking/DeleteBooking" asp-route-id="@item.BookingID" class="btn btn-danger" style="padding: 5px 10px; font-size: 12px;">Delete</a>
                         </td>
+
+
                     }
                 </tr>
             }
@@ -44,7 +46,7 @@
 
     </table>
 
-    <a asp-area="" asp-page="/Booking/MyBookings" class="btn btn-primary">Dine bookinger</a>
+    <a asp-area="" asp-page="/Booking/MyBookings" class="btn btn-primary">Your Bookings</a>
 
 
 </div>
