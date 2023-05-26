@@ -3767,19 +3767,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zaen1\\.nuget\\packages\\": {}
+    "C:\\Users\\mahoe\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zaen1\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+      "projectUniqueName": "D:\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
       "projectName": "ZealandBook",
-      "projectPath": "C:\\Users\\zaen1\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
-      "packagesPath": "C:\\Users\\zaen1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zaen1\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
+      "projectPath": "D:\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+      "packagesPath": "C:\\Users\\mahoe\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\zaen1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mahoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3847,7 +3852,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

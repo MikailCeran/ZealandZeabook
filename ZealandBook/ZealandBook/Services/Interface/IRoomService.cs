@@ -11,5 +11,8 @@ namespace ZealandBook.Services.Interface
         public void UpdateRoomStatus(int rid);
 
         public int GetRoomId(int roomId);
+        public List<Room> GetAllAvailableRooms();
+
+        public void UpdateOccupiedStatusOfRooms();
     }
 }
