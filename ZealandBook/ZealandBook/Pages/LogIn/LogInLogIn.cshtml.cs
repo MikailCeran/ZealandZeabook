@@ -11,14 +11,20 @@ namespace ZealandBook
     public class LogInLogInModel : PageModel
     {
         private readonly IStudentService studentService;
+        private readonly ITeacherService teacherService;
 
-        public LogInLogInModel(IStudentService studentService)
+        public LogInLogInModel(IStudentService studentService, ITeacherService teacherService)
         {
             this.studentService = studentService;
+            this.teacherService = teacherService;
         }
+
+
 
         [BindProperty]
         public Student Student { get; set; }
+        [BindProperty]
+        public Teacher Teacher{ get; set; }
 
         [BindProperty]
         [Required]
@@ -39,22 +45,33 @@ namespace ZealandBook
 
         public IActionResult OnPost()
         {
-           
-            // Attempt to retrieve the student from the database
+            // Attempt to retrieve the student and teacher from the database
             Student = studentService.GetStudentByEmailAndPassword(Email, Password);
+            Teacher = teacherService.GetTeacherByEmailAndPassword(Email, Password);
 
-            if (Student == null)
+            if (Student != null)
+            {
+                HttpContext.Session.SetString("LoggedInStudentId", Student.StudentId.ToString());
+                HttpContext.Session.SetString("LoggedInStudentName", Student.StudentName.ToString());
+
+                // Redirect to the home page
+                return RedirectToPage("/Index");
+            }
+            else if (Teacher != null)
+            {
+                HttpContext.Session.SetString("LoggedInTeacherId", Teacher.TeacherID.ToString());
+                HttpContext.Session.SetString("TeacherAdmin", Teacher.Admin.ToString());
+                HttpContext.Session.SetString("LoggedInTeacherName", Teacher.TeacherName.ToString());
+
+                // Redirect to the home page
+                return RedirectToPage("/Index");
+            }
+            else
             {
                 ModelState.AddModelError(string.Empty, "Invalid email or password");
                 return Page();
             }
-
-            HttpContext.Session.SetString("LoggedInStudentId", Student.StudentId.ToString());
-            HttpContext.Session.SetString("LoggedInStudentName", Student.StudentName.ToString());
-
-
-            // Redirect to the home page
-            return RedirectToPage("/Index");
         }
+
     }
 }
