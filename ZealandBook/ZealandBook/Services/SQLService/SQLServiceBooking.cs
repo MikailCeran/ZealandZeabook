@@ -193,6 +193,32 @@ namespace ZealandBook.Services.SQLService
         }
 
 
+        public static List<int> GetAllAvailableRoomIds(DateTime specificDate, TimeSpan specificTimeFrom, TimeSpan specificTimeTo)
+        {
+            List<int> roomIds = new List<int>();
+            string query = "SELECT r.Room_Id FROM Room r LEFT JOIN Booking b ON r.Room_Id = b.Room_Id AND (CONVERT(DATE, b.[Date]) = @Specific_Date AND ((@Specific_Time_From >= b.Date_From AND @Specific_Time_From < b.Date_To) OR (@Specific_Time_To > b.Date_From AND @Specific_Time_To <= b.Date_To)OR (@Specific_Time_From <= b.Date_From AND @Specific_Time_To >= b.Date_To)))WHERE b.Booking_Id IS NULL";      
+           using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Specific_Date", specificDate.Date);
+                    command.Parameters.AddWithValue("@Specific_Time_From", specificTimeFrom);
+                    command.Parameters.AddWithValue("@Specific_Time_To", specificTimeTo);
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            int roomId = Convert.ToInt32(reader["Room_Id"]);
+                            roomIds.Add(roomId);
+                        }
+                    }
+                }
+            }
+            return roomIds;
+        }
+
+
 
     }
 

@@ -13,5 +13,7 @@ namespace ZealandBook.Services.Interface
         Booking GetBookingById(int id); 
 
         void DeleteBooking(int bookingId);
+
+        public List<int> GetAllAvailableRoomIds(DateTime specificDate, TimeSpan specificTimeFrom, TimeSpan specificTimeTo);
     }
 }
