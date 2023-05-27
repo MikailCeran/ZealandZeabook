@@ -1,41 +1,8 @@
 ﻿@page
-@model BookingSystemModel
+@model ZealandBook.BookingSystemModel
+@{
+    ViewData["Title"] = "BookingSystem";
+}
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Booking System</title>
-</head>
-<body>
-    <h1>Booking System</h1>
 
-    <h2>Search for Available Rooms</h2>
-    <form method="post">
-        <label for="specificDate">Date:</label>
-        <input type="date" id="specificDate" name="specificDate" required><br>
 
-        <label for="specificTimeFrom">Time From:</label>
-        <input type="time" id="specificTimeFrom" name="specificTimeFrom" required><br>
-
-        <label for="specificTimeTo">Time To:</label>
-        <input type="time" id="specificTimeTo" name="specificTimeTo" required><br>
-
-        <button type="submit">Search</button>
-    </form>
-
-    <h2>Available Rooms:</h2>
-    @if (Model.AvailableRoomIds != null && Model.AvailableRoomIds.Count > 0)
-    {
-        <ul>
-            @foreach (var roomId in Model.AvailableRoomIds)
-            {
-                <li>@roomId</li>
-            }
-        </ul>
-    }
-    else
-    {
-        <p>No rooms are available for the specified date and time range.</p>
-    }
-</body>
-</html>
