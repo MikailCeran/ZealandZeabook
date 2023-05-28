@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\GitHub\ZealandZeabook\ZealandBook\ZealandBook
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/GitHub/ZealandZeabook/ZealandBook/ZealandBook/Pages/Booking/BookingSystem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va2luZ1xCb29raW5nU3lzdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GitHub/ZealandZeabook/ZealandBook/ZealandBook/Pages/Booking/CreateBooking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va2luZ1xDcmVhdGVCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

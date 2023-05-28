@@ -196,15 +196,16 @@ namespace ZealandBook.Services.SQLService
         public static List<int> GetAllAvailableRoomIds(DateTime specificDate, TimeSpan specificTimeFrom, TimeSpan specificTimeTo)
         {
             List<int> roomIds = new List<int>();
-            string query = "SELECT r.Room_Id FROM Room r LEFT JOIN Booking b ON r.Room_Id = b.Room_Id AND (CONVERT(DATE, b.[Date]) = @Specific_Date AND ((@Specific_Time_From >= b.Date_From AND @Specific_Time_From < b.Date_To) OR (@Specific_Time_To > b.Date_From AND @Specific_Time_To <= b.Date_To)OR (@Specific_Time_From <= b.Date_From AND @Specific_Time_To >= b.Date_To)))WHERE b.Booking_Id IS NULL";      
-           using (SqlConnection connection = new SqlConnection(connectionString))
+            string query = "SELECT r.Room_Id FROM Room r LEFT JOIN Booking b ON r.Room_Id = b.Room_Id AND (CONVERT(DATE, b.[Date]) = @Specific_Date AND ((CAST(@Specific_Time_From AS TIME) >= b.Date_From AND CAST(@Specific_Time_From AS TIME) < b.Date_To) OR (CAST(@Specific_Time_To AS TIME) > b.Date_From AND CAST(@Specific_Time_To AS TIME) <= b.Date_To) OR (CAST(@Specific_Time_From AS TIME) <= b.Date_From AND CAST(@Specific_Time_To AS TIME) >= b.Date_To))) WHERE b.Booking_Id IS NULL";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@Specific_Date", specificDate.Date);
-                    command.Parameters.AddWithValue("@Specific_Time_From", specificTimeFrom);
-                    command.Parameters.AddWithValue("@Specific_Time_To", specificTimeTo);
+                    command.Parameters.AddWithValue("@Specific_Time_From", specificDate.Date + specificTimeFrom);
+                    command.Parameters.AddWithValue("@Specific_Time_To", specificDate.Date + specificTimeTo);
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
                         while (reader.Read())
@@ -217,6 +218,42 @@ namespace ZealandBook.Services.SQLService
             }
             return roomIds;
         }
+
+        public static Room GetRoomById(int roomId)
+        {
+            Room room = null;
+            string query = "SELECT * FROM Room WHERE Room_Id = @RoomId";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@RoomId", roomId);
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            room = new Room
+                            {
+                                Room_ID = Convert.ToInt32(reader["Room_Id"]),
+                                Room_Type = reader["Room_Type"] != DBNull.Value ? Convert.ToString(reader["Room_Type"]) : string.Empty,
+                                Room_Size = reader["Room_Size"] != DBNull.Value ? Convert.ToString(reader["Room_Size"]) : string.Empty,
+                                RoomFacilities = reader["Smartboard"] != DBNull.Value ? Convert.ToString(reader["Smartboard"]) : string.Empty,
+                                Building = reader["Building"] != DBNull.Value ? Convert.ToString(reader["Building"]) : string.Empty,
+                                Description = reader["Description"] != DBNull.Value ? Convert.ToString(reader["Description"]) : string.Empty,
+                                Room_Name = reader["Room_Name"] != DBNull.Value ? Convert.ToString(reader["Room_Name"]) : string.Empty,
+                                Occupied = reader["Occupied"] != DBNull.Value ? Convert.ToBoolean(reader["Occupied"]) : false
+                            };
+                        }
+                    }
+                }
+            }
+
+            return room;
+        }
+
+
 
 
 

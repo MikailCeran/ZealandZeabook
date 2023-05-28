@@ -39,5 +39,9 @@ namespace ZealandBook.Services.ADONETService
             return SQLServiceBooking.GetAllAvailableRoomIds(specificDate, specificTimeFrom, specificTimeTo);
         }
 
+        public Room GetRoomById(int roomId)
+        {
+            return SQLServiceBooking.GetRoomById(roomId);
+        }
     }
 }
