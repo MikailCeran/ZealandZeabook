@@ -43,5 +43,19 @@ namespace ZealandBook.Services.ADONETService
         {
             return SQLServiceBooking.GetRoomById(roomId);
         }
+
+        public void DeleteBookingsBeforeToday()
+        {
+            SQLServiceBooking.DeleteBookingsBeforeToday();
+        }
+
+        public bool HasExistingBookingTeacher(int teacherId)
+        {
+            return SQLServiceBooking.HasExistingBookingTeacher(teacherId);
+        }
+        public bool HasExistingBookingStudent(int studentId)
+        {
+           return SQLServiceBooking.HasExistingBookingStudent(studentId);
+        }
     }
 }

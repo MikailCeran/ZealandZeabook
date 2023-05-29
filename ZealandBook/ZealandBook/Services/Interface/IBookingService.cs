@@ -18,6 +18,10 @@ namespace ZealandBook.Services.Interface
 
         public Room GetRoomById(int roomId);
 
+        public void DeleteBookingsBeforeToday();
+
+        public bool HasExistingBookingTeacher(int teacherId);
+        public bool HasExistingBookingStudent(int studentId);
 
     }
 }
