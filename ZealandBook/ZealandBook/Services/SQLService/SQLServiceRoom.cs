@@ -2,6 +2,7 @@
 using Microsoft.Data.SqlClient;
 using ZealandBook.Services.ADONETService;
 using System.Security.Cryptography;
+using ZealandBook.Services.Interface;
 
 namespace ZealandBook.Services.SQLService
 {
@@ -110,6 +111,23 @@ namespace ZealandBook.Services.SQLService
             }
             return rooms;
         }
+        
+        public static void UpdateOccupiedStatusOfRooms()
+        {
+            string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ZeabookDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+
+            string query = "UPDATE Room SET Occupied = 0 WHERE Room_ID IN (SELECT Room_ID FROM Booking WHERE Date_To <= GETDATE())";
+
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand(query, connection);
+                command.ExecuteNonQuery();
+            }
+        }
+
+
 
     }
 }
