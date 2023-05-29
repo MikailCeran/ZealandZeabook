@@ -1,0 +1,104 @@
+﻿@page
+@model ZealandBook.BookingSystemModel
+@{
+    ViewData["Title"] = "Booking System";
+}
+
+<h1>Booking System</h1>
+
+<form method="get" class="search-form">
+    <div class="form-row">
+        <div class="form-group col">
+            <span class="form-text">Dag:</span>
+            <select id="specificDate" name="specificDate" required class="form-control">
+                <option value="">Select a date</option>
+                @foreach (var date in Model.AvailableDates)
+                {
+                    <option value="@date.ToString("yyyy-MM-dd")">@date.ToString("yyyy-MM-dd")</option>
+                }
+            </select>
+        </div>
+        <div class="form-group col">
+            <span class="form-text">Fra (tid):</span>
+            <select id="specificTimeFrom" name="specificTimeFrom" required class="form-control">
+                <option value="">Select a time</option>
+                @foreach (var time in Model.AvailableTimes)
+                {
+                    <option value="@time">@time</option>
+                }
+            </select>
+        </div>
+        <div class="form-group col">
+            <span class="form-text">Til:</span>
+            <select id="specificTimeTo" name="specificTimeTo" required class="form-control">
+                <option value="">Select a time</option>
+                @foreach (var time in Model.AvailableTimes)
+                {
+                    <option value="@time">@time</option>
+                }
+            </select>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+
+
+
+
+@if (Model.rooms != null && Model.rooms.Any())
+{
+    <h2>Available Rooms:</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Room Name</th>
+                <th>Room Type</th>
+                <th>Room Size</th>
+                <th>Room Facilities</th>
+                <th>Building</th>
+                <th>Description</th>
+                <th></th> <!-- Add an empty header for the "Book" button column -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var room in Model.rooms)
+{
+    <tr>
+        <td>@room.Room_Name</td>
+        <td>@room.Room_Type</td>
+        <td>@room.Room_Size</td>
+        <td>@room.RoomFacilities</td>
+        <td>@room.Building</td>
+        <td>@room.Description</td>
+        <td>
+            @{
+                // Calculate the time difference in hours between DateFrom and DateTo
+                TimeSpan timeDifference = Model.booking.DateTo - Model.booking.DateFrom;
+                bool isValidBooking = timeDifference.TotalHours <= 2 && timeDifference.TotalHours > 0;
+            }
+
+            @if (isValidBooking)
+            {
+                <form method="post" asp-page="/Booking/CreateBooking"
+                      asp-route-date="@Model.booking.Date.ToString("yyyy-MM-dd")"
+                      asp-route-specificDateFrom="@Model.booking.DateFrom.ToString("hh\\:mm")"
+                      asp-route-specificDateTo="@Model.booking.DateTo.ToString("hh\\:mm")"
+                      asp-route-roomId="@room.Room_ID">
+
+                    <button type="submit" class="btn btn-primary">Book</button>
+                </form>
+            }
+            else
+            {
+                <button type="button" class="btn btn-secondary" disabled>Invalid Booking</button>
+                <div class="alert alert-danger" role="alert">
+                    Du kan kun booke 2 timer ad gangen.
+                </div>
+            }
+        </td>
+    </tr>
+}
+        </tbody>
+    </table>
+}

@@ -50,7 +50,7 @@ namespace ZealandBook.Services.SQLService
             return null;
         }
 
-        public static List<Booking> GetBookingsForTeacher(int teacherId)
+        public static List<Booking> GetBookingsForTeacher(int id)
         {
             string query = "SELECT * FROM Booking WHERE Teacher_Id = @TeacherId";
             List<Booking> bookings = new List<Booking>();
@@ -60,7 +60,7 @@ namespace ZealandBook.Services.SQLService
                 connection.Open();
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@TeacherId", teacherId);
+                    command.Parameters.AddWithValue("@TeacherId", id);
 
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
@@ -68,19 +68,19 @@ namespace ZealandBook.Services.SQLService
                         {
                             Booking booking = new Booking();
                             booking.BookingID = Convert.ToInt32(reader["Booking_Id"]);
-                            booking.DateFrom = Convert.ToDateTime(reader["Date_From"]);
-                            booking.DateTo = Convert.ToDateTime(reader["Date_To"]);
-                            booking.Student_Id = reader["Student_Id"] != DBNull.Value ? Convert.ToInt32(reader["Student_Id"]) : (int?)null;
-                            booking.Teacher_Id = reader["Teacher_Id"] != DBNull.Value ? Convert.ToInt32(reader["Teacher_Id"]) : (int?)null;
+                            booking.DateFrom = TimeSpan.Parse(reader["Date_From"].ToString());
+                            booking.DateTo = TimeSpan.Parse(reader["Date_To"].ToString());
+                            booking.Student_Id = Convert.ToInt32(reader["Student_Id"]);
+                            booking.Teacher_Id = Convert.ToInt32(reader["Teacher_Id"]);
                             booking.Room_Id = Convert.ToInt32(reader["Room_Id"]);
                             bookings.Add(booking);
                         }
                     }
                 }
             }
+
             return bookings;
         }
-
 
         public static Teacher GetTeacherById(int id)
         {
