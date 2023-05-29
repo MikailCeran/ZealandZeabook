@@ -27,9 +27,11 @@ namespace Zeabook.test
             // Assert
             Assert.IsNotNull(bookings, "Should not be null");
             Assert.IsTrue(bookings.Count > 1, "At least one booking exist");
+
+            //Denne test sikrer, at der findes mindst én booking og at listen over bookinger ikke er tom.
         }
-        
-        
+
+
         [TestMethod]
         public void TestDeleteBooking_Succes()
         {
@@ -55,9 +57,11 @@ namespace Zeabook.test
 
             // Assert
             Assert.IsTrue(finalCount < initialCount, $"Booking with ID {bookingId} should be deleted");
+
+            //Denne test sikrer, at en booking bliver slettet ved at sammenligne antallet af bookinger før og efter sletning.
         }
-        
-        
+
+
         [TestMethod]
         public void TestCreateBooking_Success()
         {
@@ -88,6 +92,8 @@ namespace Zeabook.test
             Assert.AreEqual(bookingprop.Student_Id, booking.Student_Id, "Student_Id match  the value");
             Assert.AreEqual(bookingprop.Teacher_Id, booking.Teacher_Id, "Teacher_Id match the value");
             Assert.AreEqual(bookingprop.Room_Id, booking.Room_Id, "Room_Id match the value");
+
+            //Denne test sikrer, at en booking bliver oprettet med korrekte værdier, herunder datoer, studerende, lærer og lokale.
         }
 
 
