@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ZealandBook.Models;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;using ZealandBook.Models;
 using ZealandBook.Services.ADONETService;
 using System.Collections.Generic;
 using ZealandBook.Services.SQLService;
@@ -26,8 +25,8 @@ namespace Zeabook.test
             List<Booking> bookings = _bookingServices.GetAllBookings();
 
             // Assert
-            Assert.IsNotNull(bookings, "Bookings should[TestMethod]\r\npublic void TestDeleteBooking_Success()\r\n{\r\n    // Arrange\r\n    List<Booking> bookings = _bookingServices.GetAllBookings();\r\n    int initialCount = bookings.Count;\r\n\r\n    // Select a booking to delete (assuming it exists)\r\n    Booking bookingToDelete = bookings.FirstOrDefault();\r\n\r\n    if (bookingToDelete == null)\r\n    {\r\n        Assert.Inconclusive(\"No booking found to delete.\");\r\n    }\r\n\r\n    int bookingId = bookingToDelete.BookingID;\r\n\r\n    // Act\r\n    _bookingServices.DeleteBooking(bookingId);\r\n\r\n    List<Booking> bookingsAfterDeletion = _bookingServices.GetAllBookings();\r\n    int finalCount = bookingsAfterDeletion.Count;\r\n\r\n    // Assert\r\n    Assert.IsTrue(finalCount < initialCount, $\"Booking with ID {bookingId} should be deleted\");\r\n}\r\nnt be null");
-            Assert.IsTrue(bookings.Count > 0, "At least one booking exist");
+            Assert.IsNotNull(bookings, "Should not be null");
+            Assert.IsTrue(bookings.Count > 1, "At least one booking exist");
         }
         
         

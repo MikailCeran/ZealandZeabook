@@ -96,8 +96,8 @@ namespace ZealandBook.Services.SQLService
                             booking.BookingID = Convert.ToInt32(reader["Booking_Id"]);
                             booking.DateFrom = Convert.ToDateTime(reader["Date_From"]);
                             booking.DateTo = Convert.ToDateTime(reader["Date_To"]);
-                            booking.Student_Id = Convert.ToInt32(reader["Student_Id"]);
-                            booking.Teacher_Id = Convert.ToInt32(reader["Teacher_Id"]);
+                            booking.Student_Id = reader["Student_Id"] == DBNull.Value ? null : (int?)Convert.ToInt32(reader["Student_Id"]); // Hvis tilfældet var null værdi, 
+                            booking.Teacher_Id = reader["Teacher_Id"] == DBNull.Value ? null : (int?)Convert.ToInt32(reader["Teacher_Id"]); // Er det fikset, så undgår vi crash.
                             booking.Room_Id = Convert.ToInt32(reader["Room_Id"]);
                             bookings.Add(booking);
                         }
@@ -107,6 +107,7 @@ namespace ZealandBook.Services.SQLService
 
             return bookings;
         }
+
 
         public static Student GetStudentById(int studentId)
         {
