@@ -4,7 +4,7 @@
     ViewData["Title"] = "My Bookings";
 }
 
-<h1>@ViewData["Title"]</h1>
+<h1 style="color:white">@ViewData["Title"]</h1>
 
 @if (Model.Bookings != null && Model.Bookings.Any())
 {
@@ -38,5 +38,5 @@
 }
 else
 {
-    <p>No bookings found.</p>
+    <p style="color:white">No bookings found.</p>
 }
