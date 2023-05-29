@@ -21,7 +21,7 @@ namespace ZealandBook
 
         public void OnGet(int rid)
         {
-            SQLServiceRoom.UpdateOccupiedStatusOfRooms();
+            //SQLServiceRoom.UpdateOccupiedStatusOfRooms();
             rooms = SQLServiceRoom.GetAllAvailableRooms();
 
         }

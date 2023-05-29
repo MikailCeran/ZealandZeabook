@@ -180,17 +180,19 @@ namespace ZealandBook.Services.SQLService
                         {
                             booking = new Booking();
                             booking.BookingID = Convert.ToInt32(reader[0]);
-                            booking.DateFrom = TimeSpan.Parse(reader[1].ToString());
-                            booking.DateTo = TimeSpan.Parse(reader[2].ToString());
-                            booking.Student_Id = Convert.ToInt32(reader[3]);
-                            booking.Teacher_Id = Convert.ToInt32(reader[4]);
-                            booking.Room_Id = Convert.ToInt32(reader[5]);
+                            booking.DateFrom = DBNull.Value.Equals(reader[1]) ? TimeSpan.MinValue : TimeSpan.Parse(reader[1].ToString());
+                            booking.DateTo = DBNull.Value.Equals(reader[2]) ? TimeSpan.MinValue : TimeSpan.Parse(reader[2].ToString());
+                            booking.Student_Id = DBNull.Value.Equals(reader[3]) ? 0 : Convert.ToInt32(reader[3]);
+                            booking.Teacher_Id = DBNull.Value.Equals(reader[4]) ? 0 : Convert.ToInt32(reader[4]);
+                            booking.Room_Id = DBNull.Value.Equals(reader[5]) ? 0 : Convert.ToInt32(reader[5]);
+                            booking.Date = DBNull.Value.Equals(reader[6]) ? DateTime.MinValue : Convert.ToDateTime(reader[6]);
                         }
                     }
                 }
             }
             return booking;
         }
+
 
 
         public static List<int> GetAllAvailableRoomIds(DateTime specificDate, TimeSpan specificTimeFrom, TimeSpan specificTimeTo)
