@@ -3,28 +3,63 @@
 
 <h2>Calendar</h2>
 
-<table>
+<table class="table table-bordered">
     <thead>
         <tr>
-            <th>Sun</th>
-            <th>Mon</th>
-            <th>Tue</th>
-            <th>Wed</th>
-            <th>Thu</th>
-            <th>Fri</th>
-            <th>Sat</th>
+            <th scope="col" style="color: black;">Time</th>
+            @foreach (var day in Enumerable.Range(0, 14))
+            {
+                var date = Model.Dates[day * 24];
+                if (date.DayOfWeek != DayOfWeek.Saturday && date.DayOfWeek != DayOfWeek.Sunday)
+                {
+                    <th scope="col">
+                        <a href="#" class="btn btn-link btn-day">@date.ToString("ddd")</a>
+                    </th>
+                }
+            }
         </tr>
     </thead>
     <tbody>
-        @foreach (var date in Model.Dates)
+        @foreach (var hour in Enumerable.Range(0, 24))
         {
             <tr>
-                @for (int i = 0; i < (int)date.DayOfWeek; i++)
+                <td style="color: black;">@hour:00</td>
+                @foreach (var day in Enumerable.Range(0, 14))
                 {
-                    <td></td>
+                    var date = Model.Dates[(day * 24) + hour];
+                    if (date.DayOfWeek != DayOfWeek.Saturday && date.DayOfWeek != DayOfWeek.Sunday)
+                    {
+                        <td>
+                            <a href="#" class="btn btn-link btn-date">@date.Day</a>
+                        </td>
+                    }
                 }
-                <td>@date.Day</td>
             </tr>
         }
     </tbody>
 </table>
+
+<style>
+    table {
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    th,
+    td {
+        text-align: center;
+        padding: 10px;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #f2f2f2;
+    }
+
+    .btn-day,
+    .btn-date {
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 0;
+    }
+</style>

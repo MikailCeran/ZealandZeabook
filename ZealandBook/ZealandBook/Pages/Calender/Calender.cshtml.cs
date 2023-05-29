@@ -10,7 +10,7 @@ namespace ZealandBook
 
         public void OnGet()
         {
-            // Generate a list of dates for the current month
+            // Generate a list of dates for the current month and each hour of the day
             Dates = GetDatesForCurrentMonth();
         }
 
@@ -22,7 +22,10 @@ namespace ZealandBook
 
             for (int day = 1; day <= daysInMonth; day++)
             {
-                dates.Add(new DateTime(currentDate.Year, currentDate.Month, day));
+                for (int hour = 0; hour < 24; hour++)
+                {
+                    dates.Add(new DateTime(currentDate.Year, currentDate.Month, day, hour, 0, 0));
+                }
             }
 
             return dates;
