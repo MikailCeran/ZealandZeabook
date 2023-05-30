@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SGRmxQFEroRcINbsjloVY5OuH/uHc0nWh9cQHMyPdYU=",
+  "Hash": "vYxWZXy/KXlDuurofVXKRdS9ihT9s+wgZ8XnfQXKvLE=",
   "Source": "ZealandBook",
   "BasePath": "_content/ZealandBook",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ZealandBook\\wwwroot",
       "Source": "ZealandBook",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ZealandBook.styles.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ZealandBook.styles.css",
       "SourceId": "ZealandBook",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "ZealandBook.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ZealandBook.styles.css"
+      "OriginalItemSpec": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ZealandBook.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ZealandBook.bundle.scp.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ZealandBook.bundle.scp.css",
       "SourceId": "ZealandBook",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "ZealandBook.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ZealandBook.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ZealandBook.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\css\\site.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\favicon.ico",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\12312312312312312312312312312312312312-removebg-preview.png",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\12312312312312312312312312312312312312-removebg-preview.png",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "Images/12312312312312312312312312312312312312-removebg-preview.png",
       "AssetKind": "All",
@@ -102,27 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\12312312312312312312312312312312312312-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\340544057_2368705473287068_8896014391959117279_n.jpg",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\Udklip123123123123123123123213123123123123123123-removebg-preview.png",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
-      "BasePath": "_content/ZealandBook",
-      "RelativePath": "Images/340544057_2368705473287068_8896014391959117279_n.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\340544057_2368705473287068_8896014391959117279_n.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\Udklip123123123123123123123213123123123123123123-removebg-preview.png",
-      "SourceId": "ZealandBook",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "Images/Udklip123123123123123123123213123123123123123123-removebg-preview.png",
       "AssetKind": "All",
@@ -136,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Udklip123123123123123123123213123123123123123123-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\Udklip14444411111-removebg-preview.png",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\Udklip14444411111-removebg-preview.png",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "Images/Udklip14444411111-removebg-preview.png",
       "AssetKind": "All",
@@ -153,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Udklip14444411111-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\ZeabookPictureidkeForsidke.png",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\ZeabookPictureidkeForsidke.png",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "Images/ZeabookPictureidkeForsidke.png",
       "AssetKind": "All",
@@ -170,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ZeabookPictureidkeForsidke.png"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\zealand-2.jpg",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\zealand-2.jpg",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "Images/zealand-2.jpg",
       "AssetKind": "All",
@@ -187,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\zealand-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\Zealand-markedsføringsøkonom-Slagelse.jpg",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\Zealand-markedsføringsøkonom-Slagelse.jpg",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "Images/Zealand-markedsføringsøkonom-Slagelse.jpg",
       "AssetKind": "All",
@@ -204,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Zealand-markedsføringsøkonom-Slagelse.jpg"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\js\\site.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -221,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -238,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -255,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -272,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -289,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -306,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -323,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -340,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -357,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -374,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -391,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -408,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -425,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -442,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -459,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -476,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -493,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -510,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -527,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -544,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -561,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -578,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -595,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -612,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -629,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -646,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -663,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -680,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -697,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -714,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -731,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -748,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -765,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -782,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -799,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -816,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -833,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -850,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -867,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -884,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -901,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -918,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -935,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -952,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -969,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -986,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1003,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1020,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1037,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1054,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1071,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1088,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1105,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1122,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1139,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1156,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1173,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1190,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Videos\\340182241_5886864721423989_481010587949129355_n.mp4",
+      "Identity": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Videos\\340182241_5886864721423989_481010587949129355_n.mp4",
       "SourceId": "ZealandBook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
       "BasePath": "_content/ZealandBook",
       "RelativePath": "Videos/340182241_5886864721423989_481010587949129355_n.mp4",
       "AssetKind": "All",
