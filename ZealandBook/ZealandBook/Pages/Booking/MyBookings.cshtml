@@ -1,10 +1,13 @@
 ﻿@page
 @model ZealandBook.MyBookingsModel
 @{
+    ViewData["Title"] = "My Bookings";
 }
 
-<h1>@ViewData["Title"]</h1>
+<h1 style="color:white">@ViewData["Title"]</h1>
 
+@if (Model.Bookings != null && Model.Bookings.Any())
+{
     <table>
         <thead>
             <tr>
@@ -13,12 +16,11 @@
                 <th>To</th>
                 <th>Teacher ID</th>
                 <th>Room ID</th>
+                <th>Date</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
-
-        @if (Model.Bookings != null)
-        {
             @foreach (var booking in Model.Bookings)
             {
                 <tr>
@@ -27,10 +29,16 @@
                     <td>@booking.DateTo</td>
                     <td>@booking.Teacher_Id</td>
                     <td>@booking.Room_Id</td>
+                    <td>@booking.Date.ToString("dd-MM-yyyy")</td>
+                    <td>
+                        <a asp-page="/Booking/DeleteBooking" asp-route-id="@booking.BookingID" class="btn btn-danger" style="font-size: 12px; padding: 5px 10px;">Delete</a>
+                    </td>
                 </tr>
             }
-        }
         </tbody>
     </table>
-
-    <p>No bookings found.</p>
+}
+else
+{
+    <p style="color:white">No bookings found.</p>
+}

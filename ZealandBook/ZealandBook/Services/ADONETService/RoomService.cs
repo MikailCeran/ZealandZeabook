@@ -27,9 +27,9 @@ namespace ZealandBook.Services.ADONETService
         {
             return SQLServiceRoom.GetAllAvailableRooms();
         }
-        public void UpdateOccupiedStatusOfRooms()
-        {
-            SQLServiceRoom.UpdateOccupiedStatusOfRooms();
-        }
+        //public void UpdateOccupiedStatusOfRooms()
+        //{
+        //    SQLServiceRoom.UpdateOccupiedStatusOfRooms();
+        //}
     }
 }
