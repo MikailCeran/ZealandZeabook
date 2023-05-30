@@ -260,7 +260,7 @@ namespace ZealandBook.Services.SQLService
 
         public static void DeleteBookingsBeforeToday()
         {
-            string query = "DELETE FROM Booking WHERE Date < GETDATE()";
+            string query = "DELETE FROM Booking WHERE CONVERT(date, Date) < CONVERT(date, GETDATE())";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {

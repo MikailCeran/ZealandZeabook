@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SGRmxQFEroRcINbsjloVY5OuH/uHc0nWh9cQHMyPdYU=",
+  "Hash": "wDISAyJFwd+b+6Z2M2d4Zqczuh985c1L4wduxmL3mYo=",
   "Source": "ZealandBook",
   "BasePath": "_content/ZealandBook",
   "Mode": "Default",
@@ -100,23 +100,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\12312312312312312312312312312312312312-removebg-preview.png"
-    },
-    {
-      "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\340544057_2368705473287068_8896014391959117279_n.jpg",
-      "SourceId": "ZealandBook",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\",
-      "BasePath": "_content/ZealandBook",
-      "RelativePath": "Images/340544057_2368705473287068_8896014391959117279_n.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\340544057_2368705473287068_8896014391959117279_n.jpg"
     },
     {
       "Identity": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\wwwroot\\Images\\Udklip123123123123123123123213123123123123123123-removebg-preview.png",

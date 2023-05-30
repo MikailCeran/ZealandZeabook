@@ -16,7 +16,7 @@
 
             <div class="form-group">
                 <label asp-for="booking.Date" class="control-label"></label>
-                <input asp-for="booking.Date" class="form-control" type="date" value="@DateTime.Now.ToString("d")"/>
+                <input asp-for="booking.Date" class="form-control" type="date" value="@DateTime.Now.ToString("dd-MM-yyyy")"/>
                 <span asp-validation-for="booking.Room_Id" class="text-danger"></span>
             </div>
 
