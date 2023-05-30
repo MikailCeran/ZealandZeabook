@@ -4,12 +4,12 @@
     ViewData["Title"] = "Booking System";
 }
 
-<h1>Booking System</h1>
+<h1 style="color:white">Booking System</h1>
 
 <form method="get" class="search-form">
     <div class="form-row">
         <div class="form-group col">
-            <span class="form-text">Dag:</span>
+            <span class="form-text"style="color:white">Dag:</span>
             <select id="specificDate" name="specificDate" required class="form-control">
                 <option value="">Select a date</option>
                 @foreach (var date in Model.AvailableDates)
@@ -19,7 +19,7 @@
             </select>
         </div>
         <div class="form-group col">
-            <span class="form-text">Fra (tid):</span>
+            <span class="form-text" style="color:white">Fra (tid):</span>
             <select id="specificTimeFrom" name="specificTimeFrom" required class="form-control">
                 <option value="">Select a time</option>
                 @foreach (var time in Model.AvailableTimes)
@@ -29,7 +29,7 @@
             </select>
         </div>
         <div class="form-group col">
-            <span class="form-text">Til:</span>
+            <span class="form-text" style="color:white">Til:</span>
             <select id="specificTimeTo" name="specificTimeTo" required class="form-control">
                 <option value="">Select a time</option>
                 @foreach (var time in Model.AvailableTimes)
@@ -48,7 +48,7 @@
 
 @if (Model.rooms != null && Model.rooms.Any())
 {
-    <h2>Available Rooms:</h2>
+    <h2 style="color:white">Available Rooms:</h2>
     <table class="table">
         <thead>
             <tr>

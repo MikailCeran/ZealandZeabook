@@ -16,6 +16,7 @@
                 <th>Student ID</th>
                 <th>Teacher ID</th>
                 <th>Room ID</th>
+                <th>Date</th>
                 <th>Action</th>
             </tr>
         </thead>
@@ -29,6 +30,7 @@
                     <td>@item.Student_Id</td>
                     <td>@item.Teacher_Id</td>
                     <td>@item.Room_Id</td>
+                    <td>@item.Date.ToString("d")</td>
                     @{
                         var isAdmin = HttpContext.Session.GetString("TeacherAdmin") == "true";
                     }

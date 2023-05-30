@@ -38,6 +38,7 @@ namespace ZealandBook.Services.SQLService
                                 book.Teacher_Id = null;
 
                             book.Room_Id = Convert.ToInt32(reader[5]);
+                            book.Date = Convert.ToDateTime(reader["date"].ToString());
 
                             bookings.Add(book);
                         }
@@ -106,6 +107,7 @@ namespace ZealandBook.Services.SQLService
                                 booking.Teacher_Id = null;
 
                             booking.Room_Id = Convert.ToInt32(reader["Room_Id"]);
+                            booking.Date = Convert.ToDateTime(reader["date"].ToString());
 
                             bookings.Add(booking);
                         }
@@ -136,6 +138,7 @@ namespace ZealandBook.Services.SQLService
                             booking.DateTo = TimeSpan.Parse(reader["Date_To"].ToString());
                             booking.Teacher_Id = Convert.ToInt32(reader["Teacher_Id"]);
                             booking.Room_Id = Convert.ToInt32(reader["Room_Id"]);
+                            booking.Date = Convert.ToDateTime(reader["date"].ToString());
                             bookings.Add(booking);
                         }
                     }

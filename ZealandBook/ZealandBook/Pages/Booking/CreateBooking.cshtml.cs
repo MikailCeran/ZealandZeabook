@@ -11,17 +11,17 @@ namespace ZealandBook
 {
     public class CreateBookingModel : PageModel
     {
-       
+
         [BindProperty]
         public Booking booking { get; set; } = new Booking();
-      
+
         private IBookingService bookingService;
         public CreateBookingModel(IBookingService bookingService)
         {
             this.bookingService = bookingService;
         }
 
-        
+
 
         //public void OnGet(DateTime date, TimeSpan specificDateFrom, TimeSpan specificDateTo, int roomId, int rid)
         //{
