@@ -158,3 +158,12 @@ C:\Users\mikai\source\repos\Zealand Booking\ZealandZeabook\ZealandBook\Zeabook.t
 C:\Users\mikai\source\repos\Zealand Booking\ZealandZeabook\ZealandBook\Zeabook.test\obj\Debug\net6.0\Zeabook.test.pdb
 C:\Users\mikai\source\repos\Zealand Booking\ZealandZeabook\ZealandBook\Zeabook.test\obj\Debug\net6.0\Zeabook.test.genruntimeconfig.cache
 C:\Users\mikai\source\repos\Zealand Booking\ZealandZeabook\ZealandBook\Zeabook.test\obj\Debug\net6.0\ref\Zeabook.test.dll
+C:\Users\Abuumin\Documents\GitHub\ZealandZeabook\ZealandBook\Zeabook.test\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Abuumin\Documents\GitHub\ZealandZeabook\ZealandBook\Zeabook.test\obj\Debug\net6.0\Zeabook.test.csproj.AssemblyReference.cache
+C:\Users\Abuumin\Documents\GitHub\ZealandZeabook\ZealandBook\Zeabook.test\obj\Debug\net6.0\Zeabook.test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abuumin\Documents\GitHub\ZealandZeabook\ZealandBook\Zeabook.test\obj\Debug\net6.0\Zeabook.test.AssemblyInfoInputs.cache
+C:\Users\Abuumin\Documents\GitHub\ZealandZeabook\ZealandBook\Zeabook.test\obj\Debug\net6.0\Zeabook.test.AssemblyInfo.cs
+C:\Users\Abuumin\Documents\GitHub\ZealandZeabook\ZealandBook\Zeabook.test\obj\Debug\net6.0\Zeabook.test.csproj.CoreCompileInputs.cache
+C:\Users\Abuumin\Documents\GitHub\ZealandZeabook\ZealandBook\Zeabook.test\obj\Debug\net6.0\Zeabook.test.dll
+C:\Users\Abuumin\Documents\GitHub\ZealandZeabook\ZealandBook\Zeabook.test\obj\Debug\net6.0\refint\Zeabook.test.dll
+C:\Users\Abuumin\Documents\GitHub\ZealandZeabook\ZealandBook\Zeabook.test\obj\Debug\net6.0\Zeabook.test.pdb
