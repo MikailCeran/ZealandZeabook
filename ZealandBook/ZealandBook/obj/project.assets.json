@@ -3767,19 +3767,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mikai\\.nuget\\packages\\": {}
+    "C:\\Users\\fraad\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikai\\source\\repos\\Zealand Booking\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+      "projectUniqueName": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
       "projectName": "ZealandBook",
-      "projectPath": "C:\\Users\\mikai\\source\\repos\\Zealand Booking\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
-      "packagesPath": "C:\\Users\\mikai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikai\\source\\repos\\Zealand Booking\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
+      "projectPath": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+      "packagesPath": "C:\\Users\\fraad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mikai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fraad\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3787,6 +3787,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3847,7 +3848,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
