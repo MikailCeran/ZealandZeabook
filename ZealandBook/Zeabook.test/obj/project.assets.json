@@ -8595,19 +8595,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Zaen Javaid\\.nuget\\packages\\": {}
+    "C:\\Users\\Abuumin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zaen Javaid\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\Zeabook.test\\Zeabook.test.csproj",
+      "projectUniqueName": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\Zeabook.test\\Zeabook.test.csproj",
       "projectName": "Zeabook.test",
-      "projectPath": "C:\\Users\\Zaen Javaid\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\Zeabook.test\\Zeabook.test.csproj",
-      "packagesPath": "C:\\Users\\Zaen Javaid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zaen Javaid\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\Zeabook.test\\obj\\",
+      "projectPath": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\Zeabook.test\\Zeabook.test.csproj",
+      "packagesPath": "C:\\Users\\Abuumin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\Zeabook.test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Zaen Javaid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Abuumin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8621,8 +8621,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Zaen Javaid\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {
-              "projectPath": "C:\\Users\\Zaen Javaid\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj"
+            "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {
+              "projectPath": "C:\\Users\\Abuumin\\Documents\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj"
             }
           }
         }
@@ -8670,7 +8670,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -11,31 +11,25 @@
     <table>
         <thead>
             <tr>
-                <th>Booking ID</th>
+                <th>Room Name</th>
                 <th>From</th>
                 <th>To</th>
-                <th>Teacher ID</th>
-                <th>Room ID</th>
                 <th>Date</th>
+                <th>Booking ID</th>
                 <th>Action</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var booking in Model.Bookings)
-            {
                 <tr>
-                    <td>@booking.BookingID</td>
-                    <td>@booking.DateFrom</td>
-                    <td>@booking.DateTo</td>
-                    
-
-                    <td>@booking.Date.ToString("dd-MM-yyyy")</td>
+                    <td>@Model.rooms.Room_Name</td>
+                    <td>@Model.bookings.DateFrom</td>
+                    <td>@Model.bookings.DateTo</td>
+                    <td>@Model.bookings.Date.ToString("dd-MM-yyyy")</td>
+                    <td>@Model.bookings.BookingID</td>
                     <td>
-                        <a asp-page="/Booking/DeleteBooking" asp-route-id="@booking.BookingID" class="btn btn-danger" style="font-size: 12px; padding: 5px 10px;">Delete</a>
+                        <a asp-page="/Booking/DeleteBooking" asp-route-id="@Model.bookings.BookingID" class="btn btn-danger" style="font-size: 12px; padding: 5px 10px;">Delete</a>
                     </td>
                 </tr>
-            }
-            <td>@Model.rooms.Room_Name</td>
         </tbody>
     </table>
 }

@@ -27,6 +27,8 @@ namespace ZealandBook
         public IEnumerable<Booking> Bookings { get; set; }
         [BindProperty]
         public Room rooms { get; set; }
+        [BindProperty]
+        public Booking bookings { get; set; }
         public IActionResult OnGet()
         {
             if (int.TryParse(HttpContext.Session.GetString("LoggedInStudentId"), out int studentId))
@@ -39,9 +41,12 @@ namespace ZealandBook
                    rooms = _bookingService.GetRoomById(room.Room_Id);
                     
                 }
+                foreach (var booking in Bookings)
+                {
+                    bookings = booking;
+                }
                 
             }
-
             if (int.TryParse(HttpContext.Session.GetString("LoggedInTeacherId"), out int teacherId))
             {
                 Teacher teacher = _teacherService.GetTeacherById(teacherId);
