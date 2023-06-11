@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {}
+    "C:\\Users\\Zaen Javaid\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {
+    "C:\\Users\\Zaen Javaid\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+        "projectUniqueName": "C:\\Users\\Zaen Javaid\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
         "projectName": "ZealandBook",
-        "projectPath": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
-        "packagesPath": "C:\\Users\\fraad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fraad\\OneDrive\\Documents\\ZeaBook\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
+        "projectPath": "C:\\Users\\Zaen Javaid\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\ZealandBook.csproj",
+        "packagesPath": "C:\\Users\\Zaen Javaid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zaen Javaid\\OneDrive\\Dokumenter\\GitHub\\ZealandZeabook\\ZealandBook\\ZealandBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fraad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zaen Javaid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

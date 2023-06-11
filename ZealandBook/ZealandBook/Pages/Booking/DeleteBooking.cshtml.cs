@@ -17,7 +17,7 @@ namespace ZealandBook.Pages.Booking
         public ZealandBook.Models.Booking Booking { get; set; }
 
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public IActionResult OnGet(int? id)
         {
             if (id == null)
             {

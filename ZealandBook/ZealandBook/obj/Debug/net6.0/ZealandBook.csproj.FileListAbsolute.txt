@@ -552,97 +552,92 @@ C:\Users\mahoe\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook
 C:\Users\mahoe\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.pdb
 C:\Users\mahoe\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.genruntimeconfig.cache
 C:\Users\mahoe\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ref\ZealandBook.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\appsettings.json
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\ZealandBook.staticwebassets.runtime.json
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\ZealandBook.exe
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\ZealandBook.deps.json
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\ZealandBook.runtimeconfig.json
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\ZealandBook.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\ZealandBook.pdb
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Azure.Core.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Azure.Identity.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Humanizer.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Mono.TextTemplating.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.CodeDom.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Data.SqlClient.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Memory.Data.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Text.Encodings.Web.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Text.Json.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.csproj.AssemblyReference.cache
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.AssemblyInfoInputs.cache
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.AssemblyInfo.cs
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.csproj.CoreCompileInputs.cache
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.RazorAssemblyInfo.cache
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.RazorAssemblyInfo.cs
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\staticwebassets\msbuild.ZealandBook.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\staticwebassets\msbuild.build.ZealandBook.props
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ZealandBook.props
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ZealandBook.props
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\scopedcss\bundle\ZealandBook.styles.css
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\scopedcss\projectbundle\ZealandBook.bundle.scp.css
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.csproj.CopyComplete
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\refint\ZealandBook.dll
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.pdb
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.genruntimeconfig.cache
-C:\Users\fraad\OneDrive\Documents\ZeaBook\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ref\ZealandBook.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\appsettings.json
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\ZealandBook.staticwebassets.runtime.json
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\ZealandBook.exe
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\ZealandBook.deps.json
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\ZealandBook.runtimeconfig.json
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\ZealandBook.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\ZealandBook.pdb
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.csproj.AssemblyReference.cache
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.AssemblyInfoInputs.cache
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.AssemblyInfo.cs
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.csproj.CoreCompileInputs.cache
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.RazorAssemblyInfo.cache
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.RazorAssemblyInfo.cs
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\scopedcss\bundle\ZealandBook.styles.css
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\scopedcss\projectbundle\ZealandBook.bundle.scp.css
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.csproj.CopyComplete
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\refint\ZealandBook.dll
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.pdb
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ZealandBook.genruntimeconfig.cache
+C:\Users\Zaen Javaid\OneDrive\Dokumenter\GitHub\ZealandZeabook\ZealandBook\ZealandBook\obj\Debug\net6.0\ref\ZealandBook.dll

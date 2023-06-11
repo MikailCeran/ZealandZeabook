@@ -25,13 +25,21 @@ namespace ZealandBook
         
         [BindProperty]
         public IEnumerable<Booking> Bookings { get; set; }
-
+        [BindProperty]
+        public Room rooms { get; set; }
         public IActionResult OnGet()
         {
             if (int.TryParse(HttpContext.Session.GetString("LoggedInStudentId"), out int studentId))
             {
                 Student student = _studentService.GetStudentById(studentId);
                 Bookings = _bookingService.GetBookingsByStudentId(studentId);
+                foreach (var room in Bookings)
+                {
+                    
+                   rooms = _bookingService.GetRoomById(room.Room_Id);
+                    
+                }
+                
             }
 
             if (int.TryParse(HttpContext.Session.GetString("LoggedInTeacherId"), out int teacherId))
