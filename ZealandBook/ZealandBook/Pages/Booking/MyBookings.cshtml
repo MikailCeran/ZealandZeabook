@@ -27,14 +27,15 @@
                     <td>@booking.BookingID</td>
                     <td>@booking.DateFrom</td>
                     <td>@booking.DateTo</td>
-                    <td>@booking.Teacher_Id</td>
-                    <td>@booking.Room_Id</td>
+                    
+
                     <td>@booking.Date.ToString("dd-MM-yyyy")</td>
                     <td>
                         <a asp-page="/Booking/DeleteBooking" asp-route-id="@booking.BookingID" class="btn btn-danger" style="font-size: 12px; padding: 5px 10px;">Delete</a>
                     </td>
                 </tr>
             }
+            <td>@Model.rooms.Room_Name</td>
         </tbody>
     </table>
 }
