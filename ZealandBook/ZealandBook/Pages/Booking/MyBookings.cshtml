@@ -11,21 +11,21 @@
     <table>
         <thead>
             <tr>
+                <th>Booking ID</th>
                 <th>Room Name</th>
                 <th>From</th>
                 <th>To</th>
                 <th>Date</th>
-                <th>Booking ID</th>
                 <th>Action</th>
             </tr>
         </thead>
         <tbody>
                 <tr>
+                    <td>@Model.bookings.BookingID</td>
                     <td>@Model.rooms.Room_Name</td>
                     <td>@Model.bookings.DateFrom</td>
                     <td>@Model.bookings.DateTo</td>
                     <td>@Model.bookings.Date.ToString("dd-MM-yyyy")</td>
-                    <td>@Model.bookings.BookingID</td>
                     <td>
                         <a asp-page="/Booking/DeleteBooking" asp-route-id="@Model.bookings.BookingID" class="btn btn-danger" style="font-size: 12px; padding: 5px 10px;">Delete</a>
                     </td>

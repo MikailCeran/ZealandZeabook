@@ -11,6 +11,8 @@ namespace ZealandBook
     {
         [BindProperty]
         public Booking booking { get; set; } = new Booking();
+        [BindProperty]
+        public Room rooms { get; set; }
         public IEnumerable<Booking> bookings { get; set; }
         private IBookingService bookingService { get; set; }
         public GetBookingModel(IBookingService service)
@@ -21,6 +23,11 @@ namespace ZealandBook
         public void OnGet()
         {
             bookings = SQLServiceBooking.GetAllBookings();
+            foreach(Booking booking in bookings)
+            {
+                rooms = bookingService.GetRoomById(booking.Room_Id);
+            }
+
         }
        
     }

@@ -51,6 +51,16 @@ namespace ZealandBook
             {
                 Teacher teacher = _teacherService.GetTeacherById(teacherId);
                 Bookings = _bookingService.GetBookingsByTeacherId(teacherId);
+                foreach (var room in Bookings)
+                {
+
+                    rooms = _bookingService.GetRoomById(room.Room_Id);
+
+                }
+                foreach (var booking in Bookings)
+                {
+                    bookings = booking;
+                }
 
             }
             return Page();
